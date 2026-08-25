@@ -1,0 +1,208 @@
+[
+  {
+    "id": "CVE-2012-5128",
+    "issues": [
+      "157124"
+    ],
+    "impacts": [
+      "Bad write in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/34d98a804d01003b7b97ebd025c1238b26db6e63"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/11233033"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 23.0.1271.64 - 2012-11-06",
+        "date": "2012-11-06",
+        "advisory": "https://chromereleases.googleblog.com/2012/11/stable-channel-release-and-beta-channel.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2012-5120",
+    "issues": [
+      "150729"
+    ],
+    "impacts": [
+      "Out-of-bounds array access in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a8e502fe60b3aa805638f419b4b4af3e0db4c261"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/10959009"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 23.0.1271.64 - 2012-11-06",
+        "date": "2012-11-06",
+        "advisory": "https://chromereleases.googleblog.com/2012/11/stable-channel-release-and-beta-channel.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2012-2886",
+    "issues": [
+      "143437"
+    ],
+    "impacts": [
+      "UXSS in v8 bindings"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 22.0.1229.79 - 2012-09-25",
+        "date": "2012-09-25",
+        "advisory": "https://chromereleases.googleblog.com/2012/09/stable-channel-update_25.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-3115",
+    "issues": [
+      "128018"
+    ],
+    "impacts": [
+      "Type corruption in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7966fb3d8ce49930024a7df71c25a699ede59741"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 19.0.1084.52 - 2012-05-23",
+        "date": "2012-05-23",
+        "advisory": "https://chromereleases.googleblog.com/2012/05/stable-channel-update_23.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-3111",
+    "issues": [
+      "126414"
+    ],
+    "impacts": [
+      "Invalid read in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b10deab7527ad052fa030882ebc5e0eb47236e4c"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 19.0.1084.52 - 2012-05-23",
+        "date": "2012-05-23",
+        "advisory": "https://chromereleases.googleblog.com/2012/05/stable-channel-update_23.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-3103",
+    "issues": [
+      "117409"
+    ],
+    "impacts": [
+      "Crashes in v8 garbage collection"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/159ee25bbf15d975c93aa622422b4fb57a9c212b"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 19.0.1084.52 - 2012-05-23",
+        "date": "2012-05-23",
+        "advisory": "https://chromereleases.googleblog.com/2012/05/stable-channel-update_23.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-3092",
+    "issues": [
+      "122337"
+    ],
+    "impacts": [
+      "Invalid write in v8 regex"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 19.0.1084.46 - 2012-05-15",
+        "date": "2012-05-15",
+        "advisory": "https://chromereleases.googleblog.com/2012/05/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-3070",
+    "issues": [
+      "118185"
+    ],
+    "impacts": [
+      "Use-after-free in v8 bindings"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 18.0.1025.151 - 2012-04-05",
+        "date": "2012-04-05",
+        "advisory": "https://chromereleases.googleblog.com/2012/04/stable-and-beta-channel-updates.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-3057",
+    "issues": [
+      "117794"
+    ],
+    "impacts": [
+      "Invalid read in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7d6fd56fd51df955a9f57450c3108521ad02498c"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 17.0.963.83 - 2012-03-21",
+        "date": "2012-03-21",
+        "advisory": "https://chromereleases.googleblog.com/2012/03/stable-channel-update_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-3031",
+    "issues": [
+      "105867"
+    ],
+    "impacts": [
+      "Use-after-free in v8 element wrapper"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 17.0.963.65 - 2012-03-04",
+        "date": "2012-03-04",
+        "advisory": "https://chromereleases.googleblog.com/2012/03/chrome-stable-update.html"
+      }
+    ]
+  }
+]

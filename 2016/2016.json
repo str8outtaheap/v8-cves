@@ -1,0 +1,553 @@
+[
+  {
+    "id": "CVE-2016-9651",
+    "issues": [
+      "664411"
+    ],
+    "impacts": [
+      "Private property access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/135b9f9360342089de151990a7bf61c31caa6f1f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2499593002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 55.0.2883.75 - 2016-12-01",
+        "date": "2016-12-01",
+        "advisory": "https://chromereleases.googleblog.com/2016/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-5219",
+    "issues": [
+      "657568"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/cb2a39d36762da3a800d9b5e734319d1141070b9"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2432163004"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 55.0.2883.75 - 2016-12-01",
+        "date": "2016-12-01",
+        "advisory": "https://chromereleases.googleblog.com/2016/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-5213",
+    "issues": [
+      "652548"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2082afcf3c8afe5002689ff3208d546f5775fb9a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2413583002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 55.0.2883.75 - 2016-12-01",
+        "date": "2016-12-01",
+        "advisory": "https://chromereleases.googleblog.com/2016/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-5200",
+    "issues": [
+      "658114"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/cac06c728dbc504464265ba15e7752699e21042d"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2451283004"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 54.0.2840.99 - 2016-11-09",
+        "date": "2016-11-09",
+        "advisory": "https://chromereleases.googleblog.com/2016/11/stable-channel-update-for-desktop_9.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-5198",
+    "issues": [
+      "659475"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2bd7464ec1efc9eb24a38f7400119a5f2257f6e6"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2444233004",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2016-5198"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 54.0.2840.87 - 2016-11-01",
+        "date": "2016-11-01",
+        "advisory": "https://chromereleases.googleblog.com/2016/11/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-5181",
+    "issues": [
+      "645211"
+    ],
+    "impacts": [
+      "Universal XSS in Blink"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [
+      "https://codereview.chromium.org/2330843002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 54.0.2840.59 - 2016-10-12",
+        "date": "2016-10-12",
+        "advisory": "https://chromereleases.googleblog.com/2016/10/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-5177",
+    "issues": [
+      "642496"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/71781f31a26cf9122d125f5f58d4a292875b7b0a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2323173004"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 53.0.2785.143 - 2016-09-29",
+        "date": "2016-09-29",
+        "advisory": "https://chromereleases.googleblog.com/2016/09/stable-channel-update-for-desktop_29.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-5172",
+    "issues": [
+      "616386"
+    ],
+    "impacts": [
+      "Arbitrary Memory Read in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4cc1331c341f5bfbeee54fec521f682a8a406af4"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2042793002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 53.0.2785.113 - 2016-09-13",
+        "date": "2016-09-13",
+        "advisory": "https://chromereleases.googleblog.com/2016/09/stable-channel-update-for-desktop_13.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-5129",
+    "issues": [
+      "620553"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d800a65967b115c6e1aa6c3ba08861a304383088"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2078403002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 52.0.2743.82 - 2016-07-20",
+        "date": "2016-07-20",
+        "advisory": "https://chromereleases.googleblog.com/2016/07/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-5128",
+    "issues": [
+      "619166"
+    ],
+    "impacts": [
+      "Same-origin bypass in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2c8ca9ad09281d4138ae363566051e45afd0838c"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2082633002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 52.0.2743.82 - 2016-07-20",
+        "date": "2016-07-20",
+        "advisory": "https://chromereleases.googleblog.com/2016/07/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1696",
+    "issues": [
+      "601073"
+    ],
+    "impacts": [
+      "Cross-origin bypass in Extension bindings"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ea5e96ff05035e5d3fc22ce4df0a9b401c0fae5a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2026443002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 51.0.2704.79 - 2016-06-01",
+        "date": "2016-06-01",
+        "advisory": "https://chromereleases.googleblog.com/2016/06/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1688",
+    "issues": [
+      "604897"
+    ],
+    "impacts": [
+      "Out-of-bounds read in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b4697727e946e8d96d5345a4db7ff72842d60466"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1902393004"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 51.0.2704.63 - 2016-05-25",
+        "date": "2016-05-25",
+        "advisory": "https://chromereleases.googleblog.com/2016/05/stable-channel-update_25.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1679",
+    "issues": [
+      "606390"
+    ],
+    "impacts": [
+      "Heap use-after-free in V8 bindings"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/src/+/6a66d73c561f07ff61f46311467cc451b5bcb86b"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 51.0.2704.63 - 2016-05-25",
+        "date": "2016-05-25",
+        "advisory": "https://chromereleases.googleblog.com/2016/05/stable-channel-update_25.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1678",
+    "issues": [
+      "595259"
+    ],
+    "impacts": [
+      "Heap overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/946354a7af0b328673ff3b7d7c08ab27c264a2b1"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1809073002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 51.0.2704.63 - 2016-05-25",
+        "date": "2016-05-25",
+        "advisory": "https://chromereleases.googleblog.com/2016/05/stable-channel-update_25.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1677",
+    "issues": [
+      "602970"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/401450493efc424cd20f914e6df6f69f3d7b8fbc"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1889133003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 51.0.2704.63 - 2016-05-25",
+        "date": "2016-05-25",
+        "advisory": "https://chromereleases.googleblog.com/2016/05/stable-channel-update_25.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1669",
+    "issues": [
+      "606115"
+    ],
+    "impacts": [
+      "Buffer overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3a9bfecfe41737aaf0dbf92ce68352f8acaaaf73"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1930873002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 50.0.2661.102 - 2016-05-11",
+        "date": "2016-05-11",
+        "advisory": "https://chromereleases.googleblog.com/2016/05/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1668",
+    "issues": [
+      "605910"
+    ],
+    "impacts": [
+      "Same origin bypass in Blink V8 bindings"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/src/+/cfb182b8d5cdc104ba1e9c09125c918b00e850bb"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 50.0.2661.102 - 2016-05-11",
+        "date": "2016-05-11",
+        "advisory": "https://chromereleases.googleblog.com/2016/05/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1665",
+    "issues": [
+      "606181"
+    ],
+    "impacts": [
+      "Information leak in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e64fd96a6c38ccc46b8bd99cc6adb83a978fbef0"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1925463003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 50.0.2661.94 - 2016-04-28",
+        "date": "2016-04-28",
+        "advisory": "https://chromereleases.googleblog.com/2016/04/stable-channel-update_28.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1663",
+    "issues": [
+      "603987"
+    ],
+    "impacts": [
+      "Use-after-free in Blink’s V8 bindings"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [
+      "https://codereview.chromium.org/1904913002/"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 50.0.2661.94 - 2016-04-28",
+        "date": "2016-04-28",
+        "advisory": "https://chromereleases.googleblog.com/2016/04/stable-channel-update_28.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1653",
+    "issues": [
+      "589792"
+    ],
+    "impacts": [
+      "Out-of-bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/58ab990aa8c3aeee38e888c1c33404f4b5a14759"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1740123002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 50.0.2661.75 - 2016-04-13",
+        "date": "2016-04-13",
+        "advisory": "https://chromereleases.googleblog.com/2016/04/stable-channel-update_13.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-3679",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 4.9.385.33, as used in Google Chrome before 49.0.2623.108, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 49.0.2623.108 - 2016-03-24",
+        "date": "2016-03-24",
+        "advisory": "https://chromereleases.googleblog.com/2016/03/stable-channel-update_24.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1646",
+    "issues": [
+      "594574"
+    ],
+    "impacts": [
+      "Out-of-bounds read in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/96a2bd8ae8c25e2acbe63319011cbb829b59e3df"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1804963002",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2016-1646"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 49.0.2623.108 - 2016-03-24",
+        "date": "2016-03-24",
+        "advisory": "https://chromereleases.googleblog.com/2016/03/stable-channel-update_24.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-2843",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 4.9.385.26, as used in Google Chrome before 49.0.2623.75, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 49.0.2623.75 - 2016-03-02",
+        "date": "2016-03-02",
+        "advisory": "https://chromereleases.googleblog.com/2016/03/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-2051",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 4.8.271.17, as used in Google Chrome before 48.0.2564.82, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 48.0.2564.82 - 2016-01-20",
+        "date": "2016-01-20",
+        "advisory": "https://chromereleases.googleblog.com/2016/01/stable-channel-update_20.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2016-1612",
+    "issues": [
+      "497632"
+    ],
+    "impacts": [
+      "Bad cast in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/cfbd16172fa165cc33ce0e2e72f74e5561168a61"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1531583005"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 48.0.2564.82 - 2016-01-20",
+        "date": "2016-01-20",
+        "advisory": "https://chromereleases.googleblog.com/2016/01/stable-channel-update_20.html"
+      }
+    ]
+  }
+]

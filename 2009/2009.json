@@ -1,0 +1,84 @@
+[
+  {
+    "id": "CVE-2009-0689",
+    "issues": [],
+    "impacts": [
+      "dtoa() error parsing long floating point numbers The v8 engine uses a common dtoa() implementation to parse strings into floating point numbers. We have applied a patch to fix a recent bug in this component"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 3.0.195.24 - 2009-09-30",
+        "date": "2009-09-30",
+        "advisory": "https://chromereleases.googleblog.com/2009/09/stable-channel-update_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2009-2935",
+    "issues": [
+      "18639"
+    ],
+    "impacts": [
+      "Unauthorized memory read from Javascript A flaw in the V8 Javascript engine might allow specially-crafted Javascript on a web page to read unauthorized memory, bypassing security checks. It is possible that this could lead to disclosing unauthorized data to an attacker or allow an attacker to run arbitrary code. More info: http://code.google.com/p/chromium/issues/detail?id=18639 (This issue will be made public once a majority of users are up to date with the fix.)"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6621a43833249a217581b9a3906e5352c1415586"
+    ],
+    "references": [
+      "https://codereview.chromium.org/192037"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 2.0.172.43 - 2009-08-25",
+        "date": "2009-08-25",
+        "advisory": "https://chromereleases.googleblog.com/2009/08/stable-update-security-fixes.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2009-2555",
+    "issues": [
+      "14719"
+    ],
+    "impacts": [
+      "Heap overflow with Javascript regular expressions Evaluating a specially-crafted regular expression in Javascript on a web page can lead to memory corruption and possibly a heap overflow. Visiting a maliciously crafted website may lead to a renderer (tab) crash or arbitrary code execution in the Google Chrome sandbox. More info: http://code.google.com/p/chromium/issues/detail?id=14719 (This issue will be made public once a majority of users are up to date with the fix.)"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2b71d0a83e73601e4a15f5eaeb65949a53b752a6"
+    ],
+    "references": [
+      "https://codereview.chromium.org/141042"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 2.0.172.37 - 2009-07-16",
+        "date": "2009-07-16",
+        "advisory": "https://chromereleases.googleblog.com/2009/07/stable-beta-update-bug-fixes.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2009-0276",
+    "issues": [],
+    "impacts": [
+      "A bug in the V8 JavaScript engine could allow bypassing same-origin checks in certain situations"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [
+      "http://codereview.chromium.org/18531"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 1.0.154.46 - 2009-01-28",
+        "date": "2009-01-28",
+        "advisory": "https://chromereleases.googleblog.com/2009/01/stable-beta-update-yahoo-mail-and.html"
+      }
+    ]
+  }
+]

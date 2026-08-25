@@ -1,0 +1,658 @@
+[
+  {
+    "id": "CVE-2019-13764",
+    "issues": [
+      "1028863"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b8b6075021ade0969c6b8de9459cd34163f7dbe1"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1946352"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 79.0.3945.79 - 2019-12-10",
+        "date": "2019-12-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-13735",
+    "issues": [
+      "1025468"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/31fab144f0652a6aa1f284b60655300ed746b2b6"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1924363"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 79.0.3945.79 - 2019-12-10",
+        "date": "2019-12-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-13730",
+    "issues": [
+      "1028862"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3363ddd4b9056d42dc6eb1f342401fddc97dc80a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1943150"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 79.0.3945.79 - 2019-12-10",
+        "date": "2019-12-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-13728",
+    "issues": [
+      "1024758"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/aecd84376c10622d9ad434adeb8090b23ba88fa4"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1924353"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 79.0.3945.79 - 2019-12-10",
+        "date": "2019-12-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-13711",
+    "issues": [
+      "986063"
+    ],
+    "impacts": [
+      "Cross-context information leak"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f51e0368eab8e25b1c030e49370187e44dbf111d"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1730999"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 78.0.3904.70 - 2019-10-22",
+        "date": "2019-10-22",
+        "advisory": "https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop_22.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-13696",
+    "issues": [
+      "1000635"
+    ],
+    "impacts": [
+      "Use-after-free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fba03abcfaa11e889bf0623eb58772b1f6a7d89f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1787429"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 77.0.3865.120 - 2019-10-10",
+        "date": "2019-10-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-13683",
+    "issues": [
+      "987502"
+    ],
+    "impacts": [
+      "Exceptions leaked by devtools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a5fd60e15a3ed1cf5bf6deeed791e5dc5a40126f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1741664"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 77.0.3865.75 - 2019-09-10",
+        "date": "2019-09-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-13673",
+    "issues": [
+      "997925"
+    ],
+    "impacts": [
+      "Cross-origin information leak using devtools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7dad47c69303ce7b100c36a45deb3f68e1bc59b8"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1776093"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 77.0.3865.75 - 2019-09-10",
+        "date": "2019-09-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-13670",
+    "issues": [
+      "980891"
+    ],
+    "impacts": [
+      "V8 memory corruption in regex"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1b06c23b14107f3fc11c180f8d9693d0d35e61c7"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1691907"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 77.0.3865.75 - 2019-09-10",
+        "date": "2019-09-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-13668",
+    "issues": [
+      "986393"
+    ],
+    "impacts": [
+      "Global window leak via console"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a5fd60e15a3ed1cf5bf6deeed791e5dc5a40126f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1741664"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 77.0.3865.75 - 2019-09-10",
+        "date": "2019-09-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5878",
+    "issues": [
+      "1000217"
+    ],
+    "impacts": [
+      "Use-after-free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d8164d590662d90bd3991926133751747ae99bfe"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 77.0.3865.75 - 2019-09-10",
+        "date": "2019-09-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5877",
+    "issues": [
+      "999310"
+    ],
+    "impacts": [
+      "Out-of-bounds access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bdcc7502cb01bcf1bd3300573be6c1352b8cfd72"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1776092"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 77.0.3865.75 - 2019-09-10",
+        "date": "2019-09-10",
+        "advisory": "https://chromereleases.googleblog.com/2019/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5867",
+    "issues": [
+      "984344"
+    ],
+    "impacts": [
+      "Out-of-bounds read in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b06a134c24c6dbcf7e3cf3bea90753c751508189"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1708474"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 76.0.3809.100 - 2019-08-06",
+        "date": "2019-08-06",
+        "advisory": "https://chromereleases.googleblog.com/2019/08/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5857",
+    "issues": [
+      "961237"
+    ],
+    "impacts": [
+      "Comparison of -0 and null yields crash"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/210856603f3125bfd0c6d4370dd6e3a7a3946a84"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1609538"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 76.0.3809.87 - 2019-07-30",
+        "date": "2019-07-30",
+        "advisory": "https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5853",
+    "issues": [
+      "976627"
+    ],
+    "impacts": [
+      "Memory corruption in regexp length check"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4c156936e8929ae3ba546dcd290987985de925c8"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1674027"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 76.0.3809.87 - 2019-07-30",
+        "date": "2019-07-30",
+        "advisory": "https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5852",
+    "issues": [
+      "976713"
+    ],
+    "impacts": [
+      "Object leak of utility functions"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f3b302193c0ea69ac908115a2da46d13f4ab1fbc"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1680544"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 76.0.3809.87 - 2019-07-30",
+        "date": "2019-07-30",
+        "advisory": "https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5866",
+    "issues": [
+      "978382"
+    ],
+    "impacts": [
+      "Incorrect heap object handling in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/97caa540a7cdafaeb3f8310d06ead8338ee0ff9d"
+    ],
+    "references": [
+      "https://codereview.chromium.org/1693010"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 75.0.3770.142 - 2019-07-15",
+        "date": "2019-07-15",
+        "advisory": "https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5847",
+    "issues": [
+      "972921"
+    ],
+    "impacts": [
+      "V8 sealed/frozen elements cause crash"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/77476cb278a2e82de8779000b13206645c6ee02f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1667006"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 75.0.3770.142 - 2019-07-15",
+        "date": "2019-07-15",
+        "advisory": "https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5831",
+    "issues": [
+      "950328"
+    ],
+    "impacts": [
+      "Incorrect map processing in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/5ef88462f9ea36537933d9c10d2f6652982aa689"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1559867"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 75.0.3770.80 - 2019-06-04",
+        "date": "2019-06-04",
+        "advisory": "https://chromereleases.googleblog.com/2019/06/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5825",
+    "issues": [
+      "941743"
+    ],
+    "impacts": [
+      "Out-of-bounds write in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/96de5eeba9b461a2d405dcfa448901c9582f3f07"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1526018",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2019-5825"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 74.0.3729.131 - 2019-04-30",
+        "date": "2019-04-30",
+        "advisory": "https://chromereleases.googleblog.com/2019/04/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5813",
+    "issues": [
+      "942699"
+    ],
+    "impacts": [
+      "Out of bounds read in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c4eae87a1a475bb2821725642c522f941b9472c9"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1532325"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 74.0.3729.108 - 2019-04-23",
+        "date": "2019-04-23",
+        "advisory": "https://chromereleases.googleblog.com/2019/04/stable-channel-update-for-desktop_23.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5807",
+    "issues": [
+      "945644"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1ec7ffedc85a1868a25b758147d8acc0c398bd72"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1545229"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 74.0.3729.108 - 2019-04-23",
+        "date": "2019-04-23",
+        "advisory": "https://chromereleases.googleblog.com/2019/04/stable-channel-update-for-desktop_23.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-13698",
+    "issues": [
+      "944971"
+    ],
+    "impacts": [
+      "OOB access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2ee43006abe63e335f08a74a226bea9ab25cd03a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1541477"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 73.0.3683.103 - 2019-04-04",
+        "date": "2019-04-04",
+        "advisory": "https://chromereleases.googleblog.com/2019/04/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5791",
+    "issues": [
+      "926651"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/03a5fd94fcc84fa4f57989bb0ea6fb38740d0dd8"
+    ],
+    "references": [
+      "https://codereview.chromium.org/1503378"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 73.0.3683.75 - 2019-03-12",
+        "date": "2019-03-12",
+        "advisory": "https://chromereleases.googleblog.com/2019/03/stable-channel-update-for-desktop_12.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5790",
+    "issues": [
+      "914736"
+    ],
+    "impacts": [
+      "Heap buffer overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c7410e8ccff855fdb1a1a0a0c6c2690716a96548"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 73.0.3683.75 - 2019-03-12",
+        "date": "2019-03-12",
+        "advisory": "https://chromereleases.googleblog.com/2019/03/stable-channel-update-for-desktop_12.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5784",
+    "issues": [
+      "915975"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/19b1538299c4c4d1f1838598eb5869c26c4f7917"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 72.0.3626.96 - 2019-02-06",
+        "date": "2019-02-06",
+        "advisory": "https://chromereleases.googleblog.com/2019/02/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5782",
+    "issues": [
+      "906043"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4e3a17d0408627517d4a81b3bf5daf85e416e9ac"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 72.0.3626.81 - 2019-01-29",
+        "date": "2019-01-29",
+        "advisory": "https://chromereleases.googleblog.com/2019/01/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5763",
+    "issues": [
+      "914731"
+    ],
+    "impacts": [
+      "Insufficient validation of untrusted input in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8494c583ca1daf1208d272db038c1cee727548a8"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 72.0.3626.81 - 2019-01-29",
+        "date": "2019-01-29",
+        "advisory": "https://chromereleases.googleblog.com/2019/01/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2019-5755",
+    "issues": [
+      "913296"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e3c923962677908c183121644c945777cdb31570"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 72.0.3626.81 - 2019-01-29",
+        "date": "2019-01-29",
+        "advisory": "https://chromereleases.googleblog.com/2019/01/stable-channel-update-for-desktop.html"
+      }
+    ]
+  }
+]

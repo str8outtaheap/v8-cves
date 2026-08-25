@@ -1,0 +1,67 @@
+[
+  {
+    "id": "CVE-2010-1506",
+    "issues": [
+      "40635"
+    ],
+    "impacts": [
+      "The Google V8 bindings in Google Chrome before 4.1.249.1059 allow attackers to cause a denial of service (memory corruption) via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 4.1.249.1059 - 2010-04-20",
+        "date": "2010-04-20",
+        "advisory": "https://chromereleases.googleblog.com/2010/04/stable-update-security-fixes.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2010-0646",
+    "issues": [
+      "31009"
+    ],
+    "impacts": [
+      "Multiple integer signedness errors in factory.cc in Google V8 before r3560, as used in Google Chrome before 4.0.249.89, allow remote attackers to execute arbitrary code in the Chrome sandbox via crafted use of JavaScript arrays."
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dddadf9f7e98bad3ce54676c733e32c91050b24a"
+    ],
+    "references": [
+      "https://codereview.chromium.org/525064"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 4.0.249.89 - 2010-02-10",
+        "date": "2010-02-10",
+        "advisory": "https://chromereleases.googleblog.com/2010/02/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2010-0645",
+    "issues": [
+      "31009"
+    ],
+    "impacts": [
+      "Multiple integer overflows in factory.cc in Google V8 before r3560, as used in Google Chrome before 4.0.249.89, allow remote attackers to execute arbitrary code in the Chrome sandbox via crafted use of JavaScript arrays."
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dddadf9f7e98bad3ce54676c733e32c91050b24a"
+    ],
+    "references": [
+      "https://codereview.chromium.org/525064"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 4.0.249.89 - 2010-02-10",
+        "date": "2010-02-10",
+        "advisory": "https://chromereleases.googleblog.com/2010/02/stable-channel-update.html"
+      }
+    ]
+  }
+]

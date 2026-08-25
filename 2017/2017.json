@@ -1,0 +1,534 @@
+[
+  {
+    "id": "CVE-2017-15429",
+    "issues": [
+      "788453"
+    ],
+    "impacts": [
+      "UXSS in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/src/+/c1cc6f94d740df95281bf77c837d7ee7ff534c2c"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/chromium/src/+/792934"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 63.0.3239.108 - 2017-12-14",
+        "date": "2017-12-14",
+        "advisory": "https://chromereleases.googleblog.com/2017/12/stable-channel-update-for-desktop_14.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-15422",
+    "issues": [
+      "774382"
+    ],
+    "impacts": [
+      "Integer overflow in ICU"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 63.0.3239.84 - 2017-12-06",
+        "date": "2017-12-06",
+        "advisory": "https://chromereleases.googleblog.com/2017/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-15413",
+    "issues": [
+      "766666"
+    ],
+    "impacts": [
+      "Type confusion in WebAssembly"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/50ecc42cc744b49d9f26ad8b92325c0a36775407"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 63.0.3239.84 - 2017-12-06",
+        "date": "2017-12-06",
+        "advisory": "https://chromereleases.googleblog.com/2017/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-15428",
+    "issues": [
+      "782145"
+    ],
+    "impacts": [
+      "Out of bounds read in V8. Zhao Qixun(@S0rryMybad) of Qihoo 360 Vulcan Team on 2017-11-07 A list of all changes is available in the log. Interested in switching release channels? Find out how. If you find a new issue, please let us know by filing a bug. The community help forum is also a great place to reach out for help or learn about common issues. Abdul Syed"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/55a98076827edac8eba775f8025df3749bcd8367"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 62.0.3202.94 - 2017-11-13",
+        "date": "2017-11-13",
+        "advisory": "https://chromereleases.googleblog.com/2017/11/stable-channel-update-for-desktop_13.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-15399",
+    "issues": [
+      "776677"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/5f960dfc06a7c95af69e2b09f772b2280168469b"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 62.0.3202.89 - 2017-11-06",
+        "date": "2017-11-06",
+        "advisory": "https://chromereleases.googleblog.com/2017/11/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-15401",
+    "issues": [
+      "766260"
+    ],
+    "impacts": [
+      "A memory corruption bug in WebAssembly could lead to out of bounds read and write through V8 in WebAssembly in Google Chrome prior to 62.0.3202.62 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page."
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1bc42ab44cd62b860153249e281e8d3b40314cc3"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 62.0.3202.74 - 2017-10-27",
+        "date": "2017-10-27",
+        "advisory": "https://chromereleases.googleblog.com/2017/10/stable-channel-update-for-chrome-os_27.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-15406",
+    "issues": [
+      "770450"
+    ],
+    "impacts": [
+      "Stack overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/69bd294affaf0dd567d8649f5c02e891473f3e1f"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 62.0.3202.75 - 2017-10-26",
+        "date": "2017-10-26",
+        "advisory": "https://chromereleases.googleblog.com/2017/10/stable-channel-update-for-desktop_26.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-15396",
+    "issues": [
+      "770452"
+    ],
+    "impacts": [
+      "Stack overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/69bd294affaf0dd567d8649f5c02e891473f3e1f"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 62.0.3202.75 - 2017-10-26",
+        "date": "2017-10-26",
+        "advisory": "https://chromereleases.googleblog.com/2017/10/stable-channel-update-for-desktop_26.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-15392",
+    "issues": [
+      "714401"
+    ],
+    "impacts": [
+      "Incorrect registry key handling in PlatformIntegration"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 62.0.3202.62 - 2017-10-17",
+        "date": "2017-10-17",
+        "advisory": "https://chromereleases.googleblog.com/2017/10/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5132",
+    "issues": [
+      "718858"
+    ],
+    "impacts": [
+      "Incorrect stack manipulation in WebAssembly"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8f0cd1c244a766d11a0447de6c1fb45af728ed29"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 62.0.3202.62 - 2017-10-17",
+        "date": "2017-10-17",
+        "advisory": "https://chromereleases.googleblog.com/2017/10/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5122",
+    "issues": [
+      "752423"
+    ],
+    "impacts": [
+      "Out-of-bounds access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f6d5504f9869cbdc83a144f13df5fc2e95a1556f"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 61.0.3163.100 - 2017-09-21",
+        "date": "2017-09-21",
+        "advisory": "https://chromereleases.googleblog.com/2017/09/stable-channel-update-for-desktop_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5121",
+    "issues": [
+      "765433"
+    ],
+    "impacts": [
+      "Out-of-bounds access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2b15425b0c131869dbd5c9c486d402b6b911fca4"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 61.0.3163.100 - 2017-09-21",
+        "date": "2017-09-21",
+        "advisory": "https://chromereleases.googleblog.com/2017/09/stable-channel-update-for-desktop_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5116",
+    "issues": [
+      "759624"
+    ],
+    "impacts": [
+      "Type confusion in V8. Reported Guang Gong of Alpha Team, Qihoo 360 on 2017-08-28"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/542ff03c4e50273e55e25ee647a6e54e009da4dd"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 61.0.3163.79 - 2017-09-05",
+        "date": "2017-09-05",
+        "advisory": "https://chromereleases.googleblog.com/2017/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5115",
+    "issues": [
+      "744584"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a224eff455632df89377748421a23be47a5278e8"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 61.0.3163.79 - 2017-09-05",
+        "date": "2017-09-05",
+        "advisory": "https://chromereleases.googleblog.com/2017/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5098",
+    "issues": [
+      "740803"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b56c0f7a7ecb5254a4f785b929f9cee346a40566"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 60.0.3112.78 - 2017-07-25",
+        "date": "2017-07-25",
+        "advisory": "https://chromereleases.googleblog.com/2017/07/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5088",
+    "issues": [
+      "729991"
+    ],
+    "impacts": [
+      "Out of bounds read in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fa0d5be128ea9be4d72a0ff7d963dc118235af52"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 59.0.3071.104 - 2017-06-15",
+        "date": "2017-06-15",
+        "advisory": "https://chromereleases.googleblog.com/2017/06/stable-channel-update-for-desktop_15.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5071",
+    "issues": [
+      "715582"
+    ],
+    "impacts": [
+      "Out of bounds read in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4e78b5a70c6443e3829b0bef10fd731062e27aa3"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 59.0.3071.86 - 2017-06-05",
+        "date": "2017-06-05",
+        "advisory": "https://chromereleases.googleblog.com/2017/06/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5070",
+    "issues": [
+      "722756"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e33fd30777f99a0d6e16b16d096a2663b1031457"
+    ],
+    "references": [
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2017-5070"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 59.0.3071.86 - 2017-06-05",
+        "date": "2017-06-05",
+        "advisory": "https://chromereleases.googleblog.com/2017/06/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5054",
+    "issues": [
+      "699166"
+    ],
+    "impacts": [
+      "Heap buffer overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/17ac7c5f4d712c914030e1fb7247d2083b04b929"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 57.0.2987.133 - 2017-03-29",
+        "date": "2017-03-29",
+        "advisory": "https://chromereleases.googleblog.com/2017/03/stable-channel-update-for-desktop_29.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5053",
+    "issues": [
+      "702058"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9224d5d1bc61c5054ff79b9c5c700052b85c56d3"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2756663002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 57.0.2987.133 - 2017-03-29",
+        "date": "2017-03-29",
+        "advisory": "https://chromereleases.googleblog.com/2017/03/stable-channel-update-for-desktop_29.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5046",
+    "issues": [
+      "680409"
+    ],
+    "impacts": [
+      "Information disclosure in Blink"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/34bee46b0be6afc06f254ec0debd4b868443a649"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2657933003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 57.0.2987.98 - 2017-03-09",
+        "date": "2017-03-09",
+        "advisory": "https://chromereleases.googleblog.com/2017/03/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5040",
+    "issues": [
+      "691323"
+    ],
+    "impacts": [
+      "Information disclosure in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3a43be9b78fb3aa0eb412d3c0083a8ae761cacd3"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 57.0.2987.98 - 2017-03-09",
+        "date": "2017-03-09",
+        "advisory": "https://chromereleases.googleblog.com/2017/03/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5030",
+    "issues": [
+      "682194"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e5608155aeb18a76fdb495d446efe1f9e33e749b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2655623004",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2017-5030"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 57.0.2987.98 - 2017-03-09",
+        "date": "2017-03-09",
+        "advisory": "https://chromereleases.googleblog.com/2017/03/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5028",
+    "issues": [
+      "653555"
+    ],
+    "impacts": [
+      "Insufficient data validation in V8"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 56.0.2924.76 - 2017-01-25",
+        "date": "2017-01-25",
+        "advisory": "https://chromereleases.googleblog.com/2017/01/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2017-5012",
+    "issues": [
+      "681843"
+    ],
+    "impacts": [
+      "Heap overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ba2cd16986182ee80973f116ac277b93b7b285bf"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2647573003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 56.0.2924.76 - 2017-01-25",
+        "date": "2017-01-25",
+        "advisory": "https://chromereleases.googleblog.com/2017/01/stable-channel-update-for-desktop.html"
+      }
+    ]
+  }
+]

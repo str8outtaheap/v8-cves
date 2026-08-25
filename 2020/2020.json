@@ -1,0 +1,696 @@
+[
+  {
+    "id": "CVE-2020-16042",
+    "issues": [
+      "1151890"
+    ],
+    "impacts": [
+      "Uninitialized Use in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e82a3b4d47a93ab64f07d8c03e3cd17b6b961c3f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2561618"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 87.0.4280.88 - 2020-12-02",
+        "date": "2020-12-02",
+        "advisory": "https://chromereleases.googleblog.com/2020/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-16040",
+    "issues": [
+      "1150649"
+    ],
+    "impacts": [
+      "Insufficient data validation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ba1b2cc09ab98b51ca3828d29d19ae3b0a7c3a92"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2557498"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 87.0.4280.88 - 2020-12-02",
+        "date": "2020-12-02",
+        "advisory": "https://chromereleases.googleblog.com/2020/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-16013",
+    "issues": [
+      "1147206"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b1d9bbce51b8fc5205df53fad22d7f10a23870e4"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2527093",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2020-16013"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 86.0.4240.198 - 2020-11-11",
+        "date": "2020-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2020/11/stable-channel-update-for-desktop_11.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-16009",
+    "issues": [
+      "1143772"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8e3ae62d294818733a0322d8e8abd53d4e410f19"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2507715",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2020-16009"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 86.0.4240.183 - 2020-11-02",
+        "date": "2020-11-02",
+        "advisory": "https://chromereleases.googleblog.com/2020/11/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-16006",
+    "issues": [
+      "1133527"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/518d67ad652fc24b7eb03e48bb342f952d4ccf74"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2465833"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 86.0.4240.183 - 2020-11-02",
+        "date": "2020-11-02",
+        "advisory": "https://chromereleases.googleblog.com/2020/11/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-15995",
+    "issues": [
+      "1157790",
+      "1132111"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a769ea7a4462115579ba87bc16fbffbae01310c1"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2440519"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 86.0.4240.99 - 2020-10-13",
+        "date": "2020-10-13",
+        "advisory": "https://chromereleases.googleblog.com/2020/10/chrome-for-android-update_31.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-15994",
+    "issues": [
+      "1117258"
+    ],
+    "impacts": [
+      "Use after free in V8 in Google Chrome prior to 86.0.4240.99 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page."
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/32dd54709cd2ecdfc553aff3f7ab5377ff7c91a2"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2367858"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 86.0.4240.99 - 2020-10-13",
+        "date": "2020-10-13",
+        "advisory": "https://chromereleases.googleblog.com/2020/10/chrome-for-android-update_31.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-15979",
+    "issues": [
+      "1127319"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/219b28bfe2ea76de63f034eb75b67e8ded339d94"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2409273"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 86.0.4240.75 - 2020-10-06",
+        "date": "2020-10-06",
+        "advisory": "https://chromereleases.googleblog.com/2020/10/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-15965",
+    "issues": [
+      "1126249"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e371325bcb03f20a362ebfa48225159702c6fde7"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2404452"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 85.0.4183.121 - 2020-09-21",
+        "date": "2020-09-21",
+        "advisory": "https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6537",
+    "issues": [
+      "1105318"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/26df3fdc2521788c4fb3c8c4b5a78f5dada8ab20"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2301082"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 84.0.4147.105 - 2020-07-27",
+        "date": "2020-07-27",
+        "advisory": "https://chromereleases.googleblog.com/2020/07/stable-channel-update-for-desktop_27.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6533",
+    "issues": [
+      "1069964"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/af45cf6dae9258306793bd7096ab82d009c9f823"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1695465"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 84.0.4147.89 - 2020-07-14",
+        "date": "2020-07-14",
+        "advisory": "https://chromereleases.googleblog.com/2020/07/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6518",
+    "issues": [
+      "986051"
+    ],
+    "impacts": [
+      "Use after free in developer tools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3b60af8669916f3b019745f19144392f6b4f6b12"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2153215"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 84.0.4147.89 - 2020-07-14",
+        "date": "2020-07-14",
+        "advisory": "https://chromereleases.googleblog.com/2020/07/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6512",
+    "issues": [
+      "1084820"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d8bc3362a9db69263254407b4ebab2dbd756ad96"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2228330"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 84.0.4147.89 - 2020-07-14",
+        "date": "2020-07-14",
+        "advisory": "https://chromereleases.googleblog.com/2020/07/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6507",
+    "issues": [
+      "1086890"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/85bc1b0cab31cc064efc65e05adb81fee814261b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2222346"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 83.0.4103.106 - 2020-06-15",
+        "date": "2020-06-15",
+        "advisory": "https://chromereleases.googleblog.com/2020/06/stable-channel-update-for-desktop_15.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6468",
+    "issues": [
+      "1076708"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/de2c0a3b2bf9922d72556a277ea2d5b648471fa6"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2182639"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 83.0.4103.61 - 2020-05-19",
+        "date": "2020-05-19",
+        "advisory": "https://chromereleases.googleblog.com/2020/05/stable-channel-update-for-desktop_19.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6458",
+    "issues": [
+      "1067270"
+    ],
+    "impacts": [
+      "Out of bounds read and write in PDFium"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/30658b6b1b672e535e6046fa84674882e29b2279"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2137403"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 81.0.4044.122 - 2020-04-21",
+        "date": "2020-04-21",
+        "advisory": "https://chromereleases.googleblog.com/2020/04/stable-channel-update-for-desktop_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6448",
+    "issues": [
+      "1037872"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c2c58856789733d1bbf1ee02f9a129baef44a8d8"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1985995"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 81.0.4044.92 - 2020-04-07",
+        "date": "2020-04-07",
+        "advisory": "https://chromereleases.googleblog.com/2020/04/stable-channel-update-for-desktop_7.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6447",
+    "issues": [
+      "991217"
+    ],
+    "impacts": [
+      "Inappropriate implementation in developer tools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7d81b0517ce70997c3ca29e5b70b9693e33ae8e3"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1745469"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 81.0.4044.92 - 2020-04-07",
+        "date": "2020-04-07",
+        "advisory": "https://chromereleases.googleblog.com/2020/04/stable-channel-update-for-desktop_7.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6434",
+    "issues": [
+      "1048555"
+    ],
+    "impacts": [
+      "Use after free in devtools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f57e7da439b26cfb16a79d34f9f56e76e5287aa5"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2037437"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 81.0.4044.92 - 2020-04-07",
+        "date": "2020-04-07",
+        "advisory": "https://chromereleases.googleblog.com/2020/04/stable-channel-update-for-desktop_7.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6430",
+    "issues": [
+      "1031479"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/83fd3e84ac43c6dcad47df3075215b31c1aada49"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1962850"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 81.0.4044.92 - 2020-04-07",
+        "date": "2020-04-07",
+        "advisory": "https://chromereleases.googleblog.com/2020/04/stable-channel-update-for-desktop_7.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6419",
+    "issues": [
+      "1040325"
+    ],
+    "impacts": [
+      "Out of bounds read and write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8d511cbd209e90448f3f9197b2ac49757cd32ca5"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1999603"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 81.0.4044.92 - 2020-04-07",
+        "date": "2020-04-07",
+        "advisory": "https://chromereleases.googleblog.com/2020/04/stable-channel-update-for-desktop_7.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6453",
+    "issues": [
+      "1065094"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2aac556145af6bad7dc70d3530af3c8de10416be"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2124837"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 80.0.3987.162 - 2020-03-31",
+        "date": "2020-03-31",
+        "advisory": "https://chromereleases.googleblog.com/2020/03/stable-channel-update-for-desktop_31.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6426",
+    "issues": [
+      "1052647"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/09d14728ca251c955f4634036f8d72a4665e96c6"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2082560"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 80.0.3987.149 - 2020-03-18",
+        "date": "2020-03-18",
+        "advisory": "https://chromereleases.googleblog.com/2020/03/stable-channel-update-for-desktop_18.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6418",
+    "issues": [
+      "1053604"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fb0a60e15695466621cf65932f9152935d859447"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2062396",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2020-6418"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 80.0.3987.122 - 2020-02-24",
+        "date": "2020-02-24",
+        "advisory": "https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop_24.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6383",
+    "issues": [
+      "1051017"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a2e971c56d1c46f7c71ccaf33057057308cc8484"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2051957"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 80.0.3987.116 - 2020-02-18",
+        "date": "2020-02-18",
+        "advisory": "https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop_18.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6415",
+    "issues": [
+      "1029576"
+    ],
+    "impacts": [
+      "Inappropriate implementation in JavaScript"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e76d29b35e8341795c4e8f8463a90d33fb1cb68a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1948711"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 80.0.3987.87 - 2020-02-04",
+        "date": "2020-02-04",
+        "advisory": "https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6395",
+    "issues": [
+      "1022855"
+    ],
+    "impacts": [
+      "Out of bounds read in JavaScript"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/20f6f21cae129d156329285fee3242a60ba6d567"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1910939"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 80.0.3987.87 - 2020-02-04",
+        "date": "2020-02-04",
+        "advisory": "https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6382",
+    "issues": [
+      "1031909"
+    ],
+    "impacts": [
+      "Type Confusion in JavaScript"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3f7e99ac460c3ca689aac76c39fbdf1852c9a7be"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1981507"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 80.0.3987.87 - 2020-02-04",
+        "date": "2020-02-04",
+        "advisory": "https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6381",
+    "issues": [
+      "1034394"
+    ],
+    "impacts": [
+      "Integer overflow in JavaScript"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2d89d8a92685cfa0df8724a0ae057d97ff4b2fec"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1967380"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 80.0.3987.87 - 2020-02-04",
+        "date": "2020-02-04",
+        "advisory": "https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2020-6379",
+    "issues": [
+      "1033407"
+    ],
+    "impacts": [
+      "Use-after-free in speech recognizer"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e7ddb89c535eab5cee947d5dd48c614537d33031"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1975752"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 79.0.3945.130 - 2020-01-16",
+        "date": "2020-01-16",
+        "advisory": "https://chromereleases.googleblog.com/2020/01/stable-channel-update-for-desktop_16.html"
+      }
+    ]
+  }
+]

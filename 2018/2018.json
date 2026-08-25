@@ -1,0 +1,491 @@
+[
+  {
+    "id": "CVE-2018-18359",
+    "issues": [
+      "907714"
+    ],
+    "impacts": [
+      "Out of bounds read in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7a3cb59fadb6e8fcdc00b25e31ee21adf07538d5"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 71.0.3578.80 - 2018-12-04",
+        "date": "2018-12-04",
+        "advisory": "https://chromereleases.googleblog.com/2018/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-18342",
+    "issues": [
+      "906313"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2603bb051e9b31802419a47bff03bb8ec7bb0641"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 71.0.3578.80 - 2018-12-04",
+        "date": "2018-12-04",
+        "advisory": "https://chromereleases.googleblog.com/2018/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-17480",
+    "issues": [
+      "905940"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2028d1d8b1d2ce10aa27e7c73ea6dc398a0d7178"
+    ],
+    "references": [
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2018-17480"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 71.0.3578.80 - 2018-12-04",
+        "date": "2018-12-04",
+        "advisory": "https://chromereleases.googleblog.com/2018/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-17478",
+    "issues": [
+      "897512"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/0855fb151bcd914d3322886bdce097ec359db85e"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 70.0.3538.102 - 2018-11-09",
+        "date": "2018-11-09",
+        "advisory": "https://chromereleases.googleblog.com/2018/11/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-17465",
+    "issues": [
+      "870226"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/719d23c032a5d92998505fb642a7afd361f3e3ea"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 70.0.3538.67 - 2018-10-16",
+        "date": "2018-10-16",
+        "advisory": "https://chromereleases.googleblog.com/2018/10/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-17463",
+    "issues": [
+      "888923"
+    ],
+    "impacts": [
+      "Remote code execution in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/52a9e67a477bdb67ca893c25c145ef5191976220"
+    ],
+    "references": [
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2018-17463"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 70.0.3538.67 - 2018-10-16",
+        "date": "2018-10-16",
+        "advisory": "https://chromereleases.googleblog.com/2018/10/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-17458",
+    "issues": [
+      "875322"
+    ],
+    "impacts": [
+      "Function signature mismatch in WebAssembly"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/09a717dbb9666231bc09ed6740f2270fe79f45b0"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 69.0.3497.92 - 2018-09-11",
+        "date": "2018-09-11",
+        "advisory": "https://chromereleases.googleblog.com/2018/09/stable-channel-update-for-desktop_11.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-16065",
+    "issues": [
+      "867776"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a24d5ad7879f47b545f7ec39ff0c48f98e4e736f"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 69.0.3497.81 - 2018-09-04",
+        "date": "2018-09-04",
+        "advisory": "https://chromereleases.googleblog.com/2018/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6149",
+    "issues": [
+      "848672"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/515cc07d28879265d08ab540b570ebfda75f7322"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 67.0.3396.87 - 2018-06-12",
+        "date": "2018-06-12",
+        "advisory": "https://chromereleases.googleblog.com/2018/06/stable-channel-update-for-desktop_12.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6143",
+    "issues": [
+      "843022"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/5999f8f1fc46b601413ae1f228989678ac823e10"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 67.0.3396.62 - 2018-05-29",
+        "date": "2018-05-29",
+        "advisory": "https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop_58.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6142",
+    "issues": [
+      "837939"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c77c869cd1f4928d3ce5f04a6d21ec6429ea8b72"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 67.0.3396.62 - 2018-05-29",
+        "date": "2018-05-29",
+        "advisory": "https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop_58.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6136",
+    "issues": [
+      "831943"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7bdbe77a3fa38ed8df0813323f116f0dff86c4f9"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 67.0.3396.62 - 2018-05-29",
+        "date": "2018-05-29",
+        "advisory": "https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop_58.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6131",
+    "issues": [
+      "826434"
+    ],
+    "impacts": [
+      "Incorrect mutability protection in WebAssembly"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/cbe41c24cfa7ed6f2763d8db5be1d9e3caaf6aa6"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 67.0.3396.62 - 2018-05-29",
+        "date": "2018-05-29",
+        "advisory": "https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop_58.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6122",
+    "issues": [
+      "836141"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/49712d8acf1b16d8d36a6f95ae7e97210a559a45"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 66.0.3359.170 - 2018-05-10",
+        "date": "2018-05-10",
+        "advisory": "https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6116",
+    "issues": [
+      "822266"
+    ],
+    "impacts": [
+      "Incorrect low memory handling in WebAssembly"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/468a9303fd47a4b04c493f17fedd1bc96258f476"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 66.0.3359.117 - 2018-04-17",
+        "date": "2018-04-17",
+        "advisory": "https://chromereleases.googleblog.com/2018/04/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6106",
+    "issues": [
+      "805729"
+    ],
+    "impacts": [
+      "Incorrect handling of promises in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9c4c717b5d1765ff31f773df416115d3dd08de60"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 66.0.3359.117 - 2018-04-17",
+        "date": "2018-04-17",
+        "advisory": "https://chromereleases.googleblog.com/2018/04/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6092",
+    "issues": [
+      "819869"
+    ],
+    "impacts": [
+      "Integer overflow in WebAssembly"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a71e5f9a7b3c968fd961683e305ff1cc9314754c"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 66.0.3359.117 - 2018-04-17",
+        "date": "2018-04-17",
+        "advisory": "https://chromereleases.googleblog.com/2018/04/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6087",
+    "issues": [
+      "813876"
+    ],
+    "impacts": [
+      "Use after free in WebAssembly"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e4402ed0bce568fbef7ee4bf8cd8ca47b62e4445"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 66.0.3359.117 - 2018-04-17",
+        "date": "2018-04-17",
+        "advisory": "https://chromereleases.googleblog.com/2018/04/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6065",
+    "issues": [
+      "808192"
+    ],
+    "impacts": [
+      "Integer overflow in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7b27040e66c8a83006aebc90fe97d21bb42156a7"
+    ],
+    "references": [
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2018-6065"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 65.0.3325.146 - 2018-03-06",
+        "date": "2018-03-06",
+        "advisory": "https://chromereleases.googleblog.com/2018/03/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6064",
+    "issues": [
+      "798644"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/be9c5fd982f53c937351eeca55ce668a101792b6"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 65.0.3325.146 - 2018-03-06",
+        "date": "2018-03-06",
+        "advisory": "https://chromereleases.googleblog.com/2018/03/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6061",
+    "issues": [
+      "794091"
+    ],
+    "impacts": [
+      "Race condition in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f3c67392acb9804598cc23a142b31abdf4aeaac3"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 65.0.3325.146 - 2018-03-06",
+        "date": "2018-03-06",
+        "advisory": "https://chromereleases.googleblog.com/2018/03/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6056",
+    "issues": [
+      "806388"
+    ],
+    "impacts": [
+      "Incorrect derived class instantiation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8361fa5896450e099539668cd7c637d01923d4ef"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 64.0.3282.167 - 2018-02-13",
+        "date": "2018-02-13",
+        "advisory": "https://chromereleases.googleblog.com/2018/02/stable-channel-update-for-desktop_13.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2018-6036",
+    "issues": [
+      "789952"
+    ],
+    "impacts": [
+      "Integer underflow in WebAssembly"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/163c1c82622f09f64fe7c3a1c93f81b566200493"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 64.0.3282.119 - 2018-01-24",
+        "date": "2018-01-24",
+        "advisory": "https://chromereleases.googleblog.com/2018/01/stable-channel-update-for-desktop_24.html"
+      }
+    ]
+  }
+]

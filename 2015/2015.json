@@ -1,0 +1,526 @@
+[
+  {
+    "id": "CVE-2015-8548",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 4.7.80.23, as used in Google Chrome before 47.0.2526.80, allow attackers to cause a denial of service or possibly have other impact via unknown vectors, a different issue than CVE-2015-8478."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 47.0.2526.80 - 2015-12-08",
+        "date": "2015-12-08",
+        "advisory": "https://chromereleases.googleblog.com/2015/12/stable-channel-update_8.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-8478",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 4.7.80.23, as used in Google Chrome before 47.0.2526.73, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 47.0.2526.73 - 2015-12-01",
+        "date": "2015-12-01",
+        "advisory": "https://chromereleases.googleblog.com/2015/12/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-6771",
+    "issues": [
+      "544991"
+    ],
+    "impacts": [
+      "Out of bounds access in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c227dd5734efa41e4973c834c910bb684a9e1998"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1408213004"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 47.0.2526.73 - 2015-12-01",
+        "date": "2015-12-01",
+        "advisory": "https://chromereleases.googleblog.com/2015/12/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-6764",
+    "issues": [
+      "554946"
+    ],
+    "impacts": [
+      "Out of bounds access in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6df9a1db8c85ab63dee63879456b6027df53fabc"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1435083003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 47.0.2526.73 - 2015-12-01",
+        "date": "2015-12-01",
+        "advisory": "https://chromereleases.googleblog.com/2015/12/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-7834",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 4.6.85.23, as used in Google Chrome before 46.0.2490.71, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 46.0.2490.71 - 2015-10-13",
+        "date": "2015-10-13",
+        "advisory": "https://chromereleases.googleblog.com/2015/10/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1304",
+    "issues": [
+      "531891"
+    ],
+    "impacts": [
+      "Cross-origin bypass in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/21bd4564538b43dec9ff8c70d43c77a4696e4cfb"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1346813002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 45.0.2454.101 - 2015-09-24",
+        "date": "2015-09-24",
+        "advisory": "https://chromereleases.googleblog.com/2015/09/stable-channel-update_24.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-6580",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 4.5.103.29, as used in Google Chrome before 45.0.2454.85, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 45.0.2454.85 - 2015-09-01",
+        "date": "2015-09-01",
+        "advisory": "https://chromereleases.googleblog.com/2015/09/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-5605",
+    "issues": [
+      "512110",
+      "469480"
+    ],
+    "impacts": [
+      "The regular-expression implementation in Google V8, as used in Google Chrome before 44.0.2403.89, mishandles interrupts, which allows remote attackers to cause a denial of service (application crash) via crafted JavaScript code, as demonstrated by an error in garbage collection during allocation of a stack-overflow exception message."
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c67cb287a901ddf03d4ae4dafcf431d09fd3e22c"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1034173002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 44.0.2403.89 - 2015-07-21",
+        "date": "2015-07-21",
+        "advisory": "https://chromereleases.googleblog.com/2015/07/stable-channel-update_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1290",
+    "issues": [
+      "505374"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8c298c79c2eff50b1d3809a5f72ed7d3679c47a4"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1221433010"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 44.0.2403.89 - 2015-07-21",
+        "date": "2015-07-21",
+        "advisory": "https://chromereleases.googleblog.com/2015/07/stable-channel-update_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1286",
+    "issues": [
+      "504011"
+    ],
+    "impacts": [
+      "UXSS in blink"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/src/+/668487277784d1329c0d8c9bb51e0a45fdcbf2aa"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 44.0.2403.89 - 2015-07-21",
+        "date": "2015-07-21",
+        "advisory": "https://chromereleases.googleblog.com/2015/07/stable-channel-update_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1281",
+    "issues": [
+      "487155"
+    ],
+    "impacts": [
+      "CSP bypass"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 44.0.2403.89 - 2015-07-21",
+        "date": "2015-07-21",
+        "advisory": "https://chromereleases.googleblog.com/2015/07/stable-channel-update_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-3910",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 4.3.61.21, as used in Google Chrome before 43.0.2357.65, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 43.0.2357.65 - 2015-05-19",
+        "date": "2015-05-19",
+        "advisory": "https://chromereleases.googleblog.com/2015/05/stable-channel-update_19.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-3333",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 4.2.77.14, as used in Google Chrome before 42.0.2311.90, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 42.0.2311.90 - 2015-04-14",
+        "date": "2015-04-14",
+        "advisory": "https://chromereleases.googleblog.com/2015/04/stable-channel-update_14.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1242",
+    "issues": [
+      "460917"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/0902b5f4dfdea599bf3d96fb9fb258904aff84ec"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/1000893003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 42.0.2311.90 - 2015-04-14",
+        "date": "2015-04-14",
+        "advisory": "https://chromereleases.googleblog.com/2015/04/stable-channel-update_14.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1233",
+    "issues": [
+      "469058"
+    ],
+    "impacts": [
+      "A special thanks to Anonymous for a combination of V8, Gamepad and IPC bugs that can lead to remote code execution outside of the sandbox"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 41.0.2272.118 - 2015-04-01",
+        "date": "2015-04-01",
+        "advisory": "https://chromereleases.googleblog.com/2015/04/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-2238",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 4.1.0.21, as used in Google Chrome before 41.0.2272.76, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 41.0.2272.76 - 2015-03-03",
+        "date": "2015-03-03",
+        "advisory": "https://chromereleases.googleblog.com/2015/03/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1230",
+    "issues": [
+      "449610"
+    ],
+    "impacts": [
+      "Type confusion in v8"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 41.0.2272.76 - 2015-03-03",
+        "date": "2015-03-03",
+        "advisory": "https://chromereleases.googleblog.com/2015/03/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1217",
+    "issues": [
+      "456192"
+    ],
+    "impacts": [
+      "Type confusion in v8 bindings"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/30674bdeb45241836bc309e42f008e66908f65e1"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/910683002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 41.0.2272.76 - 2015-03-03",
+        "date": "2015-03-03",
+        "advisory": "https://chromereleases.googleblog.com/2015/03/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1216",
+    "issues": [
+      "454954"
+    ],
+    "impacts": [
+      "Use-after-free in v8 bindings"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 41.0.2272.76 - 2015-03-03",
+        "date": "2015-03-03",
+        "advisory": "https://chromereleases.googleblog.com/2015/03/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1211",
+    "issues": [
+      "453979",
+      "453982"
+    ],
+    "impacts": [
+      "A special reward to anonymous for cross-origin-bypass in V8 bindings and privilege escalation using service workers"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [
+      "https://codereview.chromium.org/889323002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 40.0.2214.111 - 2015-02-05",
+        "date": "2015-02-05",
+        "advisory": "https://chromereleases.googleblog.com/2015/02/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1210",
+    "issues": [
+      "453979"
+    ],
+    "impacts": [
+      ","
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 40.0.2214.111 - 2015-02-05",
+        "date": "2015-02-05",
+        "advisory": "https://chromereleases.googleblog.com/2015/02/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-7939",
+    "issues": [
+      "399951"
+    ],
+    "impacts": [
+      "Same-origin-bypass in V8"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 40.0.2214.91 - 2015-01-21",
+        "date": "2015-01-21",
+        "advisory": "https://chromereleases.googleblog.com/2015/01/stable-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-7931",
+    "issues": [
+      "442710"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/377de64246b3c1449f4e2090622ae1e1691e51ae"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/813023002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 40.0.2214.91 - 2015-01-21",
+        "date": "2015-01-21",
+        "advisory": "https://chromereleases.googleblog.com/2015/01/stable-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-7928",
+    "issues": [
+      "435073"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3d58b82addcdc72755539631b1d5dc603a9b2135"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/737383002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 40.0.2214.91 - 2015-01-21",
+        "date": "2015-01-21",
+        "advisory": "https://chromereleases.googleblog.com/2015/01/stable-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-7927",
+    "issues": [
+      "444695"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3f00ce2d5933c29660d179e3a7060191fd1a59cd"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/824843002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 40.0.2214.91 - 2015-01-21",
+        "date": "2015-01-21",
+        "advisory": "https://chromereleases.googleblog.com/2015/01/stable-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2015-1346",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 3.30.33.15, as used in Google Chrome before 40.0.2214.91, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 40.0.2214.91 - 2015-01-21",
+        "date": "2015-01-21",
+        "advisory": "https://chromereleases.googleblog.com/2015/01/stable-update.html"
+      }
+    ]
+  }
+]

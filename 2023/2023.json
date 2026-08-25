@@ -1,0 +1,440 @@
+[
+  {
+    "id": "CVE-2023-6702",
+    "issues": [
+      "1501326"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bde3d360097607f36cd1d17cbe8412b84eae0a7f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/5029996"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 120.0.6099.109 - 2023-12-12",
+        "date": "2023-12-12",
+        "advisory": "https://chromereleases.googleblog.com/2023/12/stable-channel-update-for-desktop_12.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2024-3174",
+    "issues": [
+      "40073339"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/src/+/0c10ac51cc4a9705264bd59058e519f1f79d8bd6"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 119.0.6045.105 - 2023-10-31",
+        "date": "2023-10-31",
+        "advisory": "https://chromereleases.googleblog.com/2023/10/stable-channel-update-for-desktop_31.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-5346",
+    "issues": [
+      "1485829"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bd75ac35aa55a3739c01f71db2a7f34a93447faf"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4887196"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 117.0.5938.149 - 2023-10-03",
+        "date": "2023-10-03",
+        "advisory": "https://chromereleases.googleblog.com/2023/10/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-4762",
+    "issues": [
+      "1473247"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ae7dc61652805bc8e2b060d53b2b6da7cf846b6f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4817946",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2023-4762"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 116.0.5845.179 - 2023-09-05",
+        "date": "2023-09-05",
+        "advisory": "https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-4427",
+    "issues": [
+      "1470668"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1c623f9ff6e077be1c66f155485ea4005ddb6574"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4771019"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 116.0.5845.110 - 2023-08-22",
+        "date": "2023-08-22",
+        "advisory": "https://chromereleases.googleblog.com/2023/08/chrome-desktop-stable-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-4355",
+    "issues": [
+      "1468943"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a84849ed718932b94dc877bb44a2d38eb8a0aef9"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4743603"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 116.0.5845.96 - 2023-08-15",
+        "date": "2023-08-15",
+        "advisory": "https://chromereleases.googleblog.com/2023/08/stable-channel-update-for-desktop_15.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-4352",
+    "issues": [
+      "1452076"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/95eda07ddbc1839e39b3d1ff5db329c0ceb6dfaa"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4608408"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 116.0.5845.96 - 2023-08-15",
+        "date": "2023-08-15",
+        "advisory": "https://chromereleases.googleblog.com/2023/08/stable-channel-update-for-desktop_15.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-4070",
+    "issues": [
+      "1462951"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/65a913ada7c46baaab65580e31b4d3cc2114973f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4675296"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 115.0.5790.170 - 2023-08-02",
+        "date": "2023-08-02",
+        "advisory": "https://chromereleases.googleblog.com/2023/08/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-4069",
+    "issues": [
+      "1465326"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ed93bef7ab786d5367c2ae7882922c23aa0eda64"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4694007"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 115.0.5790.170 - 2023-08-02",
+        "date": "2023-08-02",
+        "advisory": "https://chromereleases.googleblog.com/2023/08/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-4068",
+    "issues": [
+      "1466183"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b947905d27518b7764607708ec9f74ac3ea94b6b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4701553"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 115.0.5790.170 - 2023-08-02",
+        "date": "2023-08-02",
+        "advisory": "https://chromereleases.googleblog.com/2023/08/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-3420",
+    "issues": [
+      "1452137"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e548943e473b020fdc1de6e5543ca31b24d8b7f9"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4610750"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 114.0.5735.198 - 2023-06-26",
+        "date": "2023-06-26",
+        "advisory": "https://chromereleases.googleblog.com/2023/06/stable-channel-update-for-desktop_26.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-3216",
+    "issues": [
+      "1450114"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a7e2bef27b72f187a7dcdf95714df686f56d9e0b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4591495"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 114.0.5735.133 - 2023-06-13",
+        "date": "2023-06-13",
+        "advisory": "https://chromereleases.googleblog.com/2023/06/stable-channel-update-for-desktop_13.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-3079",
+    "issues": [
+      "1450481"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e144f3b71e64e01d6ffd247eb15ca1ff56f6287b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4584248",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2023-3079"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 114.0.5735.106 - 2023-06-05",
+        "date": "2023-06-05",
+        "advisory": "https://chromereleases.googleblog.com/2023/06/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-2936",
+    "issues": [
+      "1443452"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e98baa3526426c0219bb0474028ca301b8bd0677"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4533781"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 114.0.5735.90 - 2023-05-30",
+        "date": "2023-05-30",
+        "advisory": "https://chromereleases.googleblog.com/2023/05/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-2935",
+    "issues": [
+      "1440695"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d125c7329f6e22af4523de3c55de3a22f168acc9"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4537324"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 114.0.5735.90 - 2023-05-30",
+        "date": "2023-05-30",
+        "advisory": "https://chromereleases.googleblog.com/2023/05/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-2724",
+    "issues": [
+      "1433211"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b8020e1973d7d3a50b17c076cd948f079e59f9e5"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4458947"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 113.0.5672.126 - 2023-05-16",
+        "date": "2023-05-16",
+        "advisory": "https://chromereleases.googleblog.com/2023/05/stable-channel-update-for-desktop_16.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-2033",
+    "issues": [
+      "1432210"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fa81078cca6964def7a3833704e0dba7b05065d8"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4417690",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2023-2033"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 112.0.5615.121 - 2023-04-14",
+        "date": "2023-04-14",
+        "advisory": "https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop_14.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-1214",
+    "issues": [
+      "1412487"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b0db6637936a88807b5512a4de68145d0a9d6f02"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4274626"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 111.0.5563.64 - 2023-03-07",
+        "date": "2023-03-07",
+        "advisory": "https://chromereleases.googleblog.com/2023/03/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2023-0696",
+    "issues": [
+      "1402270"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e17eee4894be67f715a7b2d7f17d8b69724f1cf8"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4116778"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 110.0.5481.77 - 2023-02-07",
+        "date": "2023-02-07",
+        "advisory": "https://chromereleases.googleblog.com/2023/02/stable-channel-update-for-desktop.html"
+      }
+    ]
+  }
+]

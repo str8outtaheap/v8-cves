@@ -1,0 +1,582 @@
+[
+  {
+    "id": "CVE-2022-4262",
+    "issues": [
+      "1394403"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/27fa951ae4a3801126e84bc94d5c82dd2370d18b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4066044",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2022-4262"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 108.0.5359.94 - 2022-12-02",
+        "date": "2022-12-02",
+        "advisory": "https://chromereleases.googleblog.com/2022/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-4906",
+    "issues": [
+      "1382434"
+    ],
+    "impacts": [
+      "Inappropriate implementation in Blink"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9c0d3a4e07ace8c5a8eb3bd5b672ec56403e652d"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/4013686"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 108.0.5359.71 - 2022-11-29",
+        "date": "2022-11-29",
+        "advisory": "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop_29.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-4174",
+    "issues": [
+      "1379054"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e08fa94bbcc49f3a5c3aa1371986c6365e5a09fb"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3988924"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 108.0.5359.71 - 2022-11-29",
+        "date": "2022-11-29",
+        "advisory": "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop_29.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-3889",
+    "issues": [
+      "1380063"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/64112122374c00a86771b4612d20ca5d88ad5bfb"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3998653"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 107.0.5304.110 - 2022-11-08",
+        "date": "2022-11-08",
+        "advisory": "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-3885",
+    "issues": [
+      "1377816"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f517e518af26b7eac23c9e328b463eb1e8ee3499"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3982115"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 107.0.5304.110 - 2022-11-08",
+        "date": "2022-11-08",
+        "advisory": "https://chromereleases.googleblog.com/2022/11/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-3723",
+    "issues": [
+      "1378239"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/db83e72034c0d431ff2f73e3c4ae3130c0f3e4e1"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3981277",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2022-3723"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 107.0.5304.87 - 2022-10-27",
+        "date": "2022-10-27",
+        "advisory": "https://chromereleases.googleblog.com/2022/10/stable-channel-update-for-desktop_27.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-3652",
+    "issues": [
+      "1369871"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ebe5675360e4735589a92a8836303822da79a8f4"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3936273"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 107.0.5304.62 - 2022-10-25",
+        "date": "2022-10-25",
+        "advisory": "https://chromereleases.googleblog.com/2022/10/stable-channel-update-for-desktop_25.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-3373",
+    "issues": [
+      "1366399"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6c214db445827707d65be08d177c9a4257a03a7b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3913126"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 106.0.5249.91 - 2022-09-30",
+        "date": "2022-09-30",
+        "advisory": "https://chromereleases.googleblog.com/2022/09/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-3054",
+    "issues": [
+      "1290236"
+    ],
+    "impacts": [
+      "Insufficient policy enforcement in DevTools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/0944ea06c6590182a4336ef69f773fabac6035f4"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3677293"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 105.0.5195.52 - 2022-08-30",
+        "date": "2022-08-30",
+        "advisory": "https://chromereleases.googleblog.com/2022/08/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-3045",
+    "issues": [
+      "1339648",
+      "40060077"
+    ],
+    "impacts": [
+      "Insufficient validation of untrusted input in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3483b970eb1c35f96b2b605cfaf6ca25dc9b6ab9"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3735162"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 105.0.5195.52 - 2022-08-30",
+        "date": "2022-08-30",
+        "advisory": "https://chromereleases.googleblog.com/2022/08/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-2295",
+    "issues": [
+      "1336869"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6048f754931e0971cab58fb0de785482d175175b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3707277"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 103.0.5060.114 - 2022-07-04",
+        "date": "2022-07-04",
+        "advisory": "https://chromereleases.googleblog.com/2022/07/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-2158",
+    "issues": [
+      "1321078"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dd3289d7945dac855d1287cf4ea248883e908d54"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3620836"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 103.0.5060.53 - 2022-06-21",
+        "date": "2022-06-21",
+        "advisory": "https://chromereleases.googleblog.com/2022/06/stable-channel-update-for-desktop_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-1869",
+    "issues": [
+      "1309467"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/185d6116ae7d7771c590f38be8b08530f979d226"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3550588"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 102.0.5005.61 - 2022-05-24",
+        "date": "2022-05-24",
+        "advisory": "https://chromereleases.googleblog.com/2022/05/stable-channel-update-for-desktop_24.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-1638",
+    "issues": [
+      "1316946"
+    ],
+    "impacts": [
+      "Heap buffer overflow in V8 Internationalization"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/src/+/761498bd132c3defe0482b752bc2058ce6141d0f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/chromium/src/+/3617386"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 101.0.4951.64 - 2022-05-10",
+        "date": "2022-05-10",
+        "advisory": "https://chromereleases.googleblog.com/2022/05/stable-channel-update-for-desktop_10.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-1636",
+    "issues": [
+      "1297283"
+    ],
+    "impacts": [
+      "Use after free in Performance APIs"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ca51ae3ac8b468509603633adb6ee3b3be9306ec"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3522896"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 101.0.4951.64 - 2022-05-10",
+        "date": "2022-05-10",
+        "advisory": "https://chromereleases.googleblog.com/2022/05/stable-channel-update-for-desktop_10.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-1486",
+    "issues": [
+      "1314616"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f473f10ef33955096eb40a1720d7100d1c1aab7e"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3582382"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 101.0.4951.41 - 2022-04-26",
+        "date": "2022-04-26",
+        "advisory": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_26.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-1364",
+    "issues": [
+      "1315901"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8081a5ffa7ebdb0e5b35cf63aa0490ad3578b940"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3584117",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2022-1364"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 100.0.4896.127 - 2022-04-14",
+        "date": "2022-04-14",
+        "advisory": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_14.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-1314",
+    "issues": [
+      "1304658"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bbea5909c797dec7c620b9fee43d80a1420c2e08"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3532263"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 100.0.4896.88 - 2022-04-11",
+        "date": "2022-04-11",
+        "advisory": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-1310",
+    "issues": [
+      "1307610"
+    ],
+    "impacts": [
+      "Use after free in regular expressions"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bdc4f54a50293507d9ef51573bab537883560cc8"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3534849"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 100.0.4896.88 - 2022-04-11",
+        "date": "2022-04-11",
+        "advisory": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_11.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-1232",
+    "issues": [
+      "1311641"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c4e66b89b4ecd0e90b31e9e4ed08d38085a84c49"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3562979"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 100.0.4896.75 - 2022-04-04",
+        "date": "2022-04-04",
+        "advisory": "https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-1134",
+    "issues": [
+      "1308360"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9c3d4b3556b2797fa9d9f4bee915e8502608312f"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3545172"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 100.0.4896.60 - 2022-03-29",
+        "date": "2022-03-29",
+        "advisory": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_29.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-1096",
+    "issues": [
+      "1309225"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/0981e91a4f8692af337e2588562ad1504f4bffdc"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3548458",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2022-1096"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 99.0.4844.84 - 2022-03-25",
+        "date": "2022-03-25",
+        "advisory": "https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_25.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-0470",
+    "issues": [
+      "1269225"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/79f617b009c4d8128413a07abed7f0fbe5b65308"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3279680"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 98.0.4758.80 - 2022-02-01",
+        "date": "2022-02-01",
+        "advisory": "https://chromereleases.googleblog.com/2022/02/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-0457",
+    "issues": [
+      "1274445"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4b8d04897cba70cac45eea33d78fa2354dfe2bd7"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3379819"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 98.0.4758.80 - 2022-02-01",
+        "date": "2022-02-01",
+        "advisory": "https://chromereleases.googleblog.com/2022/02/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2022-0102",
+    "issues": [
+      "1260129"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a1427aad7cefbe952c9db37a4a46d9b0af672943"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3226779"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 97.0.4692.71 - 2022-01-04",
+        "date": "2022-01-04",
+        "advisory": "https://chromereleases.googleblog.com/2022/01/stable-channel-update-for-desktop.html"
+      }
+    ]
+  }
+]

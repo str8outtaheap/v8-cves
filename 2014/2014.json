@@ -1,0 +1,429 @@
+[
+  {
+    "id": "CVE-2014-7967",
+    "issues": [],
+    "impacts": [
+      "Multiple unspecified vulnerabilities in Google V8 before 3.28.71.15, as used in Google Chrome before 38.0.2125.101, allow attackers to cause a denial of service or possibly have other impact via unknown vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 38.0.2125.101 - 2014-10-07",
+        "date": "2014-10-07",
+        "advisory": "https://chromereleases.googleblog.com/2014/10/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-3199",
+    "issues": [
+      "395411"
+    ],
+    "impacts": [
+      "Release Assert in V8 bindings"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 38.0.2125.101 - 2014-10-07",
+        "date": "2014-10-07",
+        "advisory": "https://chromereleases.googleblog.com/2014/10/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-3195",
+    "issues": [
+      "403409"
+    ],
+    "impacts": [
+      "Information Leak in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dacca11cb9b7bfa831ae8f2ce159df155f9885e2"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/468863003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 38.0.2125.101 - 2014-10-07",
+        "date": "2014-10-07",
+        "advisory": "https://chromereleases.googleblog.com/2014/10/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-3188",
+    "issues": [
+      "416449"
+    ],
+    "impacts": [
+      "A special thanks to Jüri Aedla for a combination of V8 and IPC bugs that can lead to remote code execution outside of the sandbox"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/83f64e8c1fa25e924ff41943d7abe1511f6465b6"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/592813002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 38.0.2125.101 - 2014-10-07",
+        "date": "2014-10-07",
+        "advisory": "https://chromereleases.googleblog.com/2014/10/stable-channel-update-for-chrome-os.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-3177",
+    "issues": [
+      "386988"
+    ],
+    "impacts": [
+      "A special reward to lokihardt@asrt for a combination of bugs in V8, IPC, sync, and extensions that can lead to remote code execution outside of the sandbox"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 37.0.2062.94 - 2014-08-26",
+        "date": "2014-08-26",
+        "advisory": "https://chromereleases.googleblog.com/2014/08/stable-channel-update_26.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-3176",
+    "issues": [
+      "386988"
+    ],
+    "impacts": [
+      ","
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 37.0.2062.94 - 2014-08-26",
+        "date": "2014-08-26",
+        "advisory": "https://chromereleases.googleblog.com/2014/08/stable-channel-update_26.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-3171",
+    "issues": [
+      "390928"
+    ],
+    "impacts": [
+      "Use-after-free in bindings"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 37.0.2062.94 - 2014-08-26",
+        "date": "2014-08-26",
+        "advisory": "https://chromereleases.googleblog.com/2014/08/stable-channel-update_26.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-3152",
+    "issues": [
+      "358057"
+    ],
+    "impacts": [
+      "Integer underflow in V8 fixed in version 3.25.28.16. Many of the above bugs were detected using AddressSanitizer. Interested in switching release channels? Find out how. If you find a new issue, please let us know by filing a bug"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b3148d921ee286ab31cdeee811519078498f9ea4"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/219473002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 35.0.1916.114 - 2014-05-20",
+        "date": "2014-05-20",
+        "advisory": "https://chromereleases.googleblog.com/2014/05/stable-channel-update_20.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-1736",
+    "issues": [
+      "359802"
+    ],
+    "impacts": [
+      "Integer overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/cd81065745e9e07d6e133b5cd7bfaff583124829"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/226133002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 34.0.1847.131 - 2014-04-24",
+        "date": "2014-04-24",
+        "advisory": "https://chromereleases.googleblog.com/2014/04/stable-channel-update_24.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-1735",
+    "issues": [
+      "360429",
+      "359525",
+      "359130"
+    ],
+    "impacts": [
+      "Multiple vulnerabilities in V8 fixed in version 3.24.35.33. Many of the above bugs were detected using AddressSanitizer. This release fixes a number of crashes and other bugs. A full list of changes is available in the SVN log. If you find a new issue, please let us know by filing a bug"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/5230d8d3302080b2a8131eb7633f5e3d85e6e704"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/216823005"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 34.0.1847.131 - 2014-04-24",
+        "date": "2014-04-24",
+        "advisory": "https://chromereleases.googleblog.com/2014/04/stable-channel-update_24.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-1730",
+    "issues": [
+      "354967"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f30452ba4050585aa6ab6d055bfd44a105f00fa0"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/215293005"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 34.0.1847.131 - 2014-04-24",
+        "date": "2014-04-24",
+        "advisory": "https://chromereleases.googleblog.com/2014/04/stable-channel-update_24.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-1729",
+    "issues": [
+      "358059",
+      "348319",
+      "352982",
+      "350863",
+      "355586",
+      "345820",
+      "347262"
+    ],
+    "impacts": [
+      "Multiple vulnerabilities in V8 fixed in version 3.24.35.22. Many of the above bugs were detected using AddressSanitizer. As we’ve previously discussed, Chrome will now offer to remember and fill password fields in the presence of autocomplete=off. This gives more power to users in spirit of the priority of constituencies, and it encourages the use of the Chrome password manager so users can have more complex passwords. This change does not affect non-password fields"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1ae7e8a1e520ed987ddfdee9e2d57e8168afc120"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/180013002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 34.0.1847.116 - 2014-04-08",
+        "date": "2014-04-08",
+        "advisory": "https://chromereleases.googleblog.com/2014/04/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-1721",
+    "issues": [
+      "350434"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8a1812f252ac5affba4bd3f5e0e533972c0b9924"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/194703008"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 34.0.1847.116 - 2014-04-08",
+        "date": "2014-04-08",
+        "advisory": "https://chromereleases.googleblog.com/2014/04/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-1717",
+    "issues": [
+      "353004"
+    ],
+    "impacts": [
+      "OOB access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6c01c3fd56977fa72940132991a69731dea15846"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/201873005"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 34.0.1847.116 - 2014-04-08",
+        "date": "2014-04-08",
+        "advisory": "https://chromereleases.googleblog.com/2014/04/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-1716",
+    "issues": [
+      "354123"
+    ],
+    "impacts": [
+      "UXSS in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c27758bcc761821ea882d27b0ad254e3386bb7e5"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/205033011"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 34.0.1847.116 - 2014-04-08",
+        "date": "2014-04-08",
+        "advisory": "https://chromereleases.googleblog.com/2014/04/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-1705",
+    "issues": [
+      "351787"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f9ee4f19b4d0c35088e557952e8e842f31307a7b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/197793003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 33.0.1750.152 - 2014-03-14",
+        "date": "2014-03-14",
+        "advisory": "https://chromereleases.googleblog.com/2014/03/stable-channel-update-for-chrome-os_14.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2014-1704",
+    "issues": [
+      "345715",
+      "349079",
+      "328202"
+    ],
+    "impacts": [
+      "Multiple vulnerabilities in V8 fixed in version 3.23.17.18. Many of the above bugs were detected using AddressSanitizer. This release fixes a number of crashes and other bugs. A full list of changes is available in the SVN log. If you find a new issue, please let us know by filing a bug"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/da52e9106e27b3a053d9ecd8496f38ffe403f17a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/108783005"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 33.0.1750.149 - 2014-03-11",
+        "date": "2014-03-11",
+        "advisory": "https://chromereleases.googleblog.com/2014/03/stable-channel-update_11.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2013-6668",
+    "issues": [
+      "347909",
+      "344186",
+      "343964"
+    ],
+    "impacts": [
+      "Multiple vulnerabilities in V8 fixed in version 3.24.35.10. Many of the above bugs were detected using AddressSanitizer. This release fixes a number of crashes and other bugs. A full list of changes is available in the SVN log. If you find a new issue, please let us know by filing a bug"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/60c08a8bf25be88167c4467f92b7b878add24eb2"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/170343003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 33.0.1750.146 - 2014-03-03",
+        "date": "2014-03-03",
+        "advisory": "https://chromereleases.googleblog.com/2014/03/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2013-6650",
+    "issues": [
+      "331444"
+    ],
+    "impacts": [
+      "Memory corruption in V8. This issue was fixed in v8 version 3.22.24.16"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/43d1c23e2a78e2d76d45060854b3245bffcf5879"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/125983002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 32.0.1700.102 - 2014-01-27",
+        "date": "2014-01-27",
+        "advisory": "https://chromereleases.googleblog.com/2014/01/stable-channel-update_27.html"
+      }
+    ]
+  }
+]

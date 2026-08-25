@@ -1,0 +1,908 @@
+[
+  {
+    "id": "CVE-2021-4102",
+    "issues": [
+      "1278387"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4fae8b16802a416fe3aab0e7792fabe96cf1ecd8"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3329790",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-4102"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 96.0.4664.110 - 2021-12-13",
+        "date": "2021-12-13",
+        "advisory": "https://chromereleases.googleblog.com/2021/12/stable-channel-update-for-desktop_13.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-4078",
+    "issues": [
+      "1268738"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9b5f39855448c9dc283832063c4e9e1c4dd07246"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3283077"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 96.0.4664.93 - 2021-12-06",
+        "date": "2021-12-06",
+        "advisory": "https://chromereleases.googleblog.com/2021/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-4061",
+    "issues": [
+      "1271456"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9c8741567d29c09133f305e521c076a0b7205d8a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3290583"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 96.0.4664.93 - 2021-12-06",
+        "date": "2021-12-06",
+        "advisory": "https://chromereleases.googleblog.com/2021/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-4056",
+    "issues": [
+      "1260939"
+    ],
+    "impacts": [
+      "Type Confusion in loader"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b0c6dd86bd563672dba6256f482dc5e145f094ae"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3297548"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 96.0.4664.93 - 2021-12-06",
+        "date": "2021-12-06",
+        "advisory": "https://chromereleases.googleblog.com/2021/12/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-38012",
+    "issues": [
+      "1262791"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/src/+/26564c88bc9e034cc512afd857cf303193647b9a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/chromium/src/+/3252171"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 96.0.4664.45 - 2021-11-15",
+        "date": "2021-11-15",
+        "advisory": "https://chromereleases.googleblog.com/2021/11/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-38007",
+    "issues": [
+      "1254189"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b65e72c68eaf48640679dc1e7b379e81f999a8f1"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3195874"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 96.0.4664.45 - 2021-11-15",
+        "date": "2021-11-15",
+        "advisory": "https://chromereleases.googleblog.com/2021/11/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-38003",
+    "issues": [
+      "1263462"
+    ],
+    "impacts": [
+      "Inappropriate implementation in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/be55c16e50e714475034b00ed2682f0813794d15"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3244420",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-38003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 95.0.4638.69 - 2021-10-28",
+        "date": "2021-10-28",
+        "advisory": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-38001",
+    "issues": [
+      "1260577"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e4dba97006ca20337deafb85ac00524a94a62fe9"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3225936"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 95.0.4638.69 - 2021-10-28",
+        "date": "2021-10-28",
+        "advisory": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-37998",
+    "issues": [
+      "1259587"
+    ],
+    "impacts": [
+      "Use after free in Garbage Collection"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/32a09a6bce6cc75806dee5ec748bb1d081048fd0"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3221153"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 95.0.4638.69 - 2021-10-28",
+        "date": "2021-10-28",
+        "advisory": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-37991",
+    "issues": [
+      "1250660"
+    ],
+    "impacts": [
+      "Race in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8589742831a3c09ac96e1e82bf4d697175f2a351"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3171154"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 95.0.4638.54 - 2021-10-19",
+        "date": "2021-10-19",
+        "advisory": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_19.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-37985",
+    "issues": [
+      "1241860"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/25d5e5081280115348a237add544adfa0f43bc02"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3149456"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 95.0.4638.54 - 2021-10-19",
+        "date": "2021-10-19",
+        "advisory": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_19.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-37977",
+    "issues": [
+      "1252878"
+    ],
+    "impacts": [
+      "Use after free in Garbage Collection"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e677a6f6b257e992094b9183a958b67ecc68aa85"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3199872"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 94.0.4606.81 - 2021-10-07",
+        "date": "2021-10-07",
+        "advisory": "https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-37975",
+    "issues": [
+      "1252918"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1054ee7f349d6be22e9518cf9b794b206d0e5818"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3190100",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-37975"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 94.0.4606.71 - 2021-09-30",
+        "date": "2021-09-30",
+        "advisory": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-4318",
+    "issues": [
+      "1237730"
+    ],
+    "impacts": [
+      "Object corruption in Blink"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7b07aa0e13322da5c1da36373d7469372773c009"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3107306"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 94.0.4606.54 - 2021-09-21",
+        "date": "2021-09-21",
+        "advisory": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_21.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30632",
+    "issues": [
+      "1247763"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6391d7a58d0c58cd5d096d22453b954b3ecc6fec"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3149462",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-30632"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 93.0.4577.82 - 2021-09-13",
+        "date": "2021-09-13",
+        "advisory": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30599",
+    "issues": [
+      "1234770"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/574ca6b71c6160d38b5fcf4b8e133bc7f6ba2387"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3068941"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 92.0.4515.159 - 2021-08-16",
+        "date": "2021-08-16",
+        "advisory": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30598",
+    "issues": [
+      "1234764"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/65b20a0e65e1078f5dd230a5203e231bec790ab4"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3067327"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 92.0.4515.159 - 2021-08-16",
+        "date": "2021-08-16",
+        "advisory": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30588",
+    "issues": [
+      "1195650"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/01a93417e4f4bdf83a129dfc0a3e3299ca9b0f53"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2831490"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 92.0.4515.107 - 2021-07-20",
+        "date": "2021-07-20",
+        "advisory": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30571",
+    "issues": [
+      "1101897"
+    ],
+    "impacts": [
+      "Insufficient policy enforcement in DevTools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f656eab5928876809ef46e18de0c9d35d489e17a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2594538"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 92.0.4515.107 - 2021-07-20",
+        "date": "2021-07-20",
+        "advisory": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop_20.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30563",
+    "issues": [
+      "1228407"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/374354bfe4a30740b96936b33e522d6fcd1cda67"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/3024153",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-30563"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 91.0.4472.164 - 2021-07-15",
+        "date": "2021-07-15",
+        "advisory": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30561",
+    "issues": [
+      "1219630"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c0614e9bcef7266d2e4544602d668c01b5dcaa37"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2964094"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 91.0.4472.164 - 2021-07-15",
+        "date": "2021-07-15",
+        "advisory": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30541",
+    "issues": [
+      "1214842"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/19bc8e73914d5b95fad302405f108d1c7ed78edd"
+    ],
+    "references": [
+      "https://codereview.chromium.org/2928181"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 91.0.4472.164 - 2021-07-15",
+        "date": "2021-07-15",
+        "advisory": "https://chromereleases.googleblog.com/2021/07/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30551",
+    "issues": [
+      "1216437"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/368a20bcd75b5444aa50e387ccdbf3842ae38844"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2944895",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-30551"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 91.0.4472.101 - 2021-06-09",
+        "date": "2021-06-09",
+        "advisory": "https://chromereleases.googleblog.com/2021/06/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30536",
+    "issues": [
+      "1194358"
+    ],
+    "impacts": [
+      "Out of bounds read in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8809cb11e206bd7b0bea5f36f9a5c7cc401cb65a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2800111"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 91.0.4472.77 - 2021-05-25",
+        "date": "2021-05-25",
+        "advisory": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop_25.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30517",
+    "issues": [
+      "1203122"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/387c803020c331ea4203c85b3bb6d9d714457375"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2856538"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 90.0.4430.212 - 2021-05-10",
+        "date": "2021-05-10",
+        "advisory": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-30513",
+    "issues": [
+      "1200490"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e4a580c9104e42968e8e13b8c7d933f0b2eda2a3"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2840452"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 90.0.4430.212 - 2021-05-10",
+        "date": "2021-05-10",
+        "advisory": "https://chromereleases.googleblog.com/2021/05/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21231",
+    "issues": [
+      "1198696"
+    ],
+    "impacts": [
+      "Insufficient data validation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d4aafa4022b718596b3deadcc3cdcb9209896154"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2823707"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 90.0.4430.93 - 2021-04-26",
+        "date": "2021-04-26",
+        "advisory": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_26.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21230",
+    "issues": [
+      "1198705"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/798fbcb0a3e5a292fb775c37c19d9fe73bbac17c"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2835705"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 90.0.4430.93 - 2021-04-26",
+        "date": "2021-04-26",
+        "advisory": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_26.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21227",
+    "issues": [
+      "1199345"
+    ],
+    "impacts": [
+      "Insufficient data validation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9313c4ce3f32ad81df1c65becccec7e129181ce3"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2831478"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 90.0.4430.93 - 2021-04-26",
+        "date": "2021-04-26",
+        "advisory": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_26.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21225",
+    "issues": [
+      "1195977"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7989e04979c3195e60a6814e8263063eb91f7b47"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2810787"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 90.0.4430.85 - 2021-04-20",
+        "date": "2021-04-20",
+        "advisory": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_20.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21224",
+    "issues": [
+      "1195777"
+    ],
+    "impacts": [
+      "Type Confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fd29e246f65a7cee130e72cd10f618f3b82af232"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2817791",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-21224"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 90.0.4430.85 - 2021-04-20",
+        "date": "2021-04-20",
+        "advisory": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_20.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21222",
+    "issues": [
+      "1194046"
+    ],
+    "impacts": [
+      "Heap buffer overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/src/+/cea0cb8eee9900308d9b43661e9faca449086940"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/chromium/src/+/2807255"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 90.0.4430.85 - 2021-04-20",
+        "date": "2021-04-20",
+        "advisory": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_20.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21220",
+    "issues": [
+      "1196683"
+    ],
+    "impacts": [
+      "Insufficient validation of untrusted input in V8 for x86_64"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/02f84c745fc0cae5927a66dc4a3e81334e8f60a6"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2820971",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-21220"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 89.0.4389.128 - 2021-04-13",
+        "date": "2021-04-13",
+        "advisory": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21195",
+    "issues": [
+      "1182647"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3353a7d0b017146d543434be4036a81aaf7d25ae"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2748593"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 89.0.4389.114 - 2021-03-30",
+        "date": "2021-03-30",
+        "advisory": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21169",
+    "issues": [
+      "1166138"
+    ],
+    "impacts": [
+      "Out of bounds memory access in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/164cf80bbb0a6e091300bfc4cbbe70a6e6bd3e49"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2625877"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 89.0.4389.72 - 2021-03-02",
+        "date": "2021-03-02",
+        "advisory": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21156",
+    "issues": [
+      "1177341"
+    ],
+    "impacts": [
+      "Heap buffer overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/src/+/0d289da12075592372940a366ad565b9a13d57ce"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/chromium/src/+/2690630"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 88.0.4324.182 - 2021-02-16",
+        "date": "2021-02-16",
+        "advisory": "https://chromereleases.googleblog.com/2021/02/stable-channel-update-for-desktop_16.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21148",
+    "issues": [
+      "1170176"
+    ],
+    "impacts": [
+      "Heap buffer overflow in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dfcf1e86fac0a7b067caf8fdfc13eaf3e3f445e4"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2653810",
+      "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-21148"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 88.0.4324.150 - 2021-02-04",
+        "date": "2021-02-04",
+        "advisory": "https://chromereleases.googleblog.com/2021/02/stable-channel-update-for-desktop_4.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21138",
+    "issues": [
+      "1122487"
+    ],
+    "impacts": [
+      "Use after free in DevTools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/582de025d8a89ec7b5c839d4269159c5db25f44a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2437383"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 88.0.4324.96 - 2021-01-19",
+        "date": "2021-01-19",
+        "advisory": "https://chromereleases.googleblog.com/2021/01/stable-channel-update-for-desktop_19.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2021-21118",
+    "issues": [
+      "1161357"
+    ],
+    "impacts": [
+      "Insufficient data validation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/506e893b812e03dbebe34b11d8aa9d4eb6869d89"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/2606333"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 88.0.4324.96 - 2021-01-19",
+        "date": "2021-01-19",
+        "advisory": "https://chromereleases.googleblog.com/2021/01/stable-channel-update-for-desktop_19.html"
+      }
+    ]
+  }
+]

@@ -1,0 +1,381 @@
+[
+  {
+    "id": "CVE-2011-3914",
+    "issues": [
+      "104011"
+    ],
+    "impacts": [
+      "Out-of-bounds write in v8 i18n handling"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 16.0.912.63 - 2011-12-13",
+        "date": "2011-12-13",
+        "advisory": "https://chromereleases.googleblog.com/2011/12/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-3900",
+    "issues": [
+      "103259"
+    ],
+    "impacts": [
+      "Out-of-bounds write in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/53c6077cee2fd1c6a59e305e7134e79c7a06f02d"
+    ],
+    "references": [
+      "https://codereview.chromium.org/8498011"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 15.0.874.121 - 2011-11-16",
+        "date": "2011-11-16",
+        "advisory": "https://chromereleases.googleblog.com/2011/11/stable-channel-update_16.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-3891",
+    "issues": [
+      "100322"
+    ],
+    "impacts": [
+      "Exposure of internal v8 functions"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 15.0.874.102 - 2011-10-25",
+        "date": "2011-10-25",
+        "advisory": "https://chromereleases.googleblog.com/2011/10/chrome-stable-release.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-3886",
+    "issues": [
+      "99167",
+      "98773"
+    ],
+    "impacts": [
+      "Out of bounds writes in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c034518442c114deeab6f81f4b47c4da1ec4590a"
+    ],
+    "references": [
+      "https://codereview.chromium.org/8122020"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 15.0.874.102 - 2011-10-25",
+        "date": "2011-10-25",
+        "advisory": "https://chromereleases.googleblog.com/2011/10/chrome-stable-release.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2881",
+    "issues": [
+      "97784"
+    ],
+    "impacts": [
+      "Memory corruption with v8 hidden objects"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7810ff70f60a3d8209f822ce3badcfae6a3e1531"
+    ],
+    "references": [
+      "https://codereview.chromium.org/8041020"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 14.0.835.202 - 2011-10-04",
+        "date": "2011-10-04",
+        "advisory": "https://chromereleases.googleblog.com/2011/10/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2880",
+    "issues": [
+      "97615",
+      "97520",
+      "97451"
+    ],
+    "impacts": [
+      "Use-after-free in the v8 bindings"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 14.0.835.202 - 2011-10-04",
+        "date": "2011-10-04",
+        "advisory": "https://chromereleases.googleblog.com/2011/10/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2875",
+    "issues": [
+      "95920"
+    ],
+    "impacts": [
+      "Type confusion in v8 object sealing"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/df860eda5ca03ff4ee3c034b3e064d463c5567b3"
+    ],
+    "references": [
+      "https://codereview.chromium.org/7858031"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 14.0.835.163 - 2011-09-16",
+        "date": "2011-09-16",
+        "advisory": "https://chromereleases.googleblog.com/2011/09/stable-channel-update_16.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2862",
+    "issues": [
+      "93906"
+    ],
+    "impacts": [
+      "Unintended access to v8 built-in objects"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 14.0.835.163 - 2011-09-16",
+        "date": "2011-09-16",
+        "advisory": "https://chromereleases.googleblog.com/2011/09/stable-channel-update_16.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2856",
+    "issues": [
+      "93416"
+    ],
+    "impacts": [
+      "Cross-origin bypass in v8"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 14.0.835.163 - 2011-09-16",
+        "date": "2011-09-16",
+        "advisory": "https://chromereleases.googleblog.com/2011/09/stable-channel-update_16.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2852",
+    "issues": [
+      "91120"
+    ],
+    "impacts": [
+      "Off-by-one in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f37f6e88ca24c59d1c6527c425aed2a1fb75a03c"
+    ],
+    "references": [
+      "https://codereview.chromium.org/7548011"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 14.0.835.163 - 2011-09-16",
+        "date": "2011-09-16",
+        "advisory": "https://chromereleases.googleblog.com/2011/09/stable-channel-update_16.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2830",
+    "issues": [
+      "76771"
+    ],
+    "impacts": [
+      "Crash in v8 script object wrappers"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 14.0.835.163 - 2011-09-16",
+        "date": "2011-09-16",
+        "advisory": "https://chromereleases.googleblog.com/2011/09/stable-channel-update_16.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2828",
+    "issues": [
+      "91517"
+    ],
+    "impacts": [
+      "Out-of-bounds write in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/861c895a349b2d8eb3e8c9cb0933ba80648cf1c5"
+    ],
+    "references": [
+      "https://codereview.chromium.org/7575007"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 13.0.782.215 - 2011-08-22",
+        "date": "2011-08-22",
+        "advisory": "https://chromereleases.googleblog.com/2011/08/stable-channel-update_22.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2802",
+    "issues": [
+      "88591"
+    ],
+    "impacts": [
+      "v8 crash with const lookups"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/890bc1607a503e2c87a89f69b38a5ee7654aa22e"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 13.0.782.107 - 2011-08-02",
+        "date": "2011-08-02",
+        "advisory": "https://chromereleases.googleblog.com/2011/08/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2348",
+    "issues": [
+      "85177"
+    ],
+    "impacts": [
+      "Bad bounds check in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/68eab4a8d8a11b5677220a35bda01e15a08af9f2"
+    ],
+    "references": [
+      "https://codereview.chromium.org/7003054"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 12.0.742.112 - 2011-06-28",
+        "date": "2011-06-28",
+        "advisory": "https://chromereleases.googleblog.com/2011/06/stable-channel-update_28.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2332",
+    "issues": [
+      "83275"
+    ],
+    "impacts": [
+      "Same origin bypass in v8"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 12.0.742.91 - 2011-06-07",
+        "date": "2011-06-07",
+        "advisory": "https://chromereleases.googleblog.com/2011/06/chrome-stable-release.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-1286",
+    "issues": [
+      "74675"
+    ],
+    "impacts": [
+      "Google V8, as used in Google Chrome before 10.0.648.127, allows remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors that trigger incorrect access to memory."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 10.0.648.127 - 2011-03-08",
+        "date": "2011-03-08",
+        "advisory": "https://chromereleases.googleblog.com/2011/03/chrome-stable-release.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-1193",
+    "issues": [
+      "70877"
+    ],
+    "impacts": [
+      "Google V8, as used in Google Chrome before 10.0.648.127, allows remote attackers to bypass the Same Origin Policy via unspecified vectors."
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 10.0.648.127 - 2011-03-08",
+        "date": "2011-03-08",
+        "advisory": "https://chromereleases.googleblog.com/2011/03/chrome-stable-release.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2011-2863",
+    "issues": [
+      "93759"
+    ],
+    "impacts": [
+      "Insufficient policy enforcement in V8 in Google Chrome prior to 14.0.0.0 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page."
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/893b8320b80f85f57cd89a1482d6dc065a915e94"
+    ],
+    "references": [
+      "https://codereview.chromium.org/7701023"
+    ],
+    "releases": [
+      {
+        "name": "Unmapped Chrome release - 14.0.0.0",
+        "date": null,
+        "advisory": null
+      }
+    ]
+  }
+]

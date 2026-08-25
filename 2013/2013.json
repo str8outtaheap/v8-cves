@@ -1,0 +1,224 @@
+[
+  {
+    "id": "CVE-2013-6640",
+    "issues": [
+      "319860"
+    ],
+    "impacts": [
+      "Out of bounds read in v8. This issue was fixed in v8 version 3.22.24.7"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c9b41c699552d5c217d9650fcb17c9cb8470b0f6"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/74113002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 31.0.1650.63 - 2013-12-04",
+        "date": "2013-12-04",
+        "advisory": "https://chromereleases.googleblog.com/2013/12/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2013-6639",
+    "issues": [
+      "319835"
+    ],
+    "impacts": [
+      "Out of bounds write in v8. This issue was fixed in v8 version 3.22.24.7"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c9b41c699552d5c217d9650fcb17c9cb8470b0f6"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/74113002"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 31.0.1650.63 - 2013-12-04",
+        "date": "2013-12-04",
+        "advisory": "https://chromereleases.googleblog.com/2013/12/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2013-6638",
+    "issues": [
+      "319722"
+    ],
+    "impacts": [
+      "Buffer overflow in v8. This issue was fixed in v8 version 3.22.24.7"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7832aab75c8eb9f4903e031f103a0013ec8f09ed"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/59093007"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 31.0.1650.63 - 2013-12-04",
+        "date": "2013-12-04",
+        "advisory": "https://chromereleases.googleblog.com/2013/12/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2013-2919",
+    "issues": [
+      "282736"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c14a55dd2f5f5b41821f5fbdb2ca58ece83bf369"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 30.0.1599.66 - 2013-10-01",
+        "date": "2013-10-01",
+        "advisory": "https://chromereleases.googleblog.com/2013/10/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2013-2882",
+    "issues": [
+      "260106"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/05992251872d4f2cf8281143c00fd69cfe70195b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/19159003"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 28.0.1500.95 - 2013-07-30",
+        "date": "2013-07-30",
+        "advisory": "https://chromereleases.googleblog.com/2013/07/stable-channel-update_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2013-2881",
+    "issues": [
+      "257748"
+    ],
+    "impacts": [
+      "Origin bypass in frame handling"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/25ca62b6ad4eec09c782ad9578c2806b2db7ab0c"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/18402007"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 28.0.1500.95 - 2013-07-30",
+        "date": "2013-07-30",
+        "advisory": "https://chromereleases.googleblog.com/2013/07/stable-channel-update_30.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2013-2838",
+    "issues": [
+      "235311"
+    ],
+    "impacts": [
+      "Out-of-bounds read in v8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/528792e39be0e0a0a3b3a27145981cb9bd972e01"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/14387008"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 27.0.1453.93 - 2013-05-21",
+        "date": "2013-05-21",
+        "advisory": "https://chromereleases.googleblog.com/2013/05/stable-channel-release.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2013-2632",
+    "issues": [
+      "194749"
+    ],
+    "impacts": [
+      "Google V8 before 3.17.13, as used in Google Chrome before 27.0.1444.3, allows remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via crafted JavaScript code, as demonstrated by the Bejeweled game."
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/002ba9c76d5ebb1233d2b51829d2a67606ef27cb"
+    ],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 27.0.1444.3 - 2013-03-18",
+        "date": "2013-03-18",
+        "advisory": "https://chromereleases.googleblog.com/2013/03/dev-channel-update_18.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2012-5153",
+    "issues": [
+      "164565"
+    ],
+    "impacts": [
+      "Out-of-bounds stack access in v8"
+    ],
+    "itw": false,
+    "commits": [],
+    "references": [],
+    "releases": [
+      {
+        "name": "Chrome 24.0.1312.52 - 2013-01-10",
+        "date": "2013-01-10",
+        "advisory": "https://chromereleases.googleblog.com/2013/01/stable-channel-update.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2013-0836",
+    "issues": [
+      "150545"
+    ],
+    "impacts": [
+      "Crash in v8 garbage collection"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f0dcaf9a196a294b48bf7f3dcc4a7bc5b101d12b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/10938016"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 24.0.1312.52 - 2013-01-10",
+        "date": "2013-01-10",
+        "advisory": "https://chromereleases.googleblog.com/2013/01/stable-channel-update.html"
+      }
+    ]
+  }
+]
