@@ -1,5 +1,74 @@
 [
   {
+    "id": "CVE-2026-85046",
+    "issues": [
+      "542403045"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": true,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e0562d87ad9c17042b581582c99237d798572e67"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8213162"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 152.0.7977.82/.83 - 2026-09-03",
+        "date": "2026-09-03",
+        "advisory": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-85045",
+    "issues": [
+      "547819997"
+    ],
+    "impacts": [
+      "Race condition in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7d5eb1df2a721c8fe3aa03b999464c4b86242080"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8255554"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 152.0.7977.82/.83 - 2026-09-03",
+        "date": "2026-09-03",
+        "advisory": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-84326",
+    "issues": [
+      "547936520"
+    ],
+    "impacts": [
+      "Uninitialized resource in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/67c8f3a91447f9b8b15c16b6f6d0e1702f02e7a7"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8308714"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 152.0.7977.75/.76 - 2026-09-01",
+        "date": "2026-09-01",
+        "advisory": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop.html"
+      }
+    ]
+  },
+  {
     "id": "CVE-2026-78899",
     "issues": [
       "540430406"

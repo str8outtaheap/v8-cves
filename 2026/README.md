@@ -1,10 +1,13 @@
 # V8 CVEs 2026
 
-- CVEs: 111
+- CVEs: 114
 - [json](2026.json)
 
 | CVE | Issue | Impact | ITW | Fix | Chrome release |
 | --- | --- | --- | --- | --- | --- |
+| CVE-2026-85046 | [542403045](https://issues.chromium.org/issues/542403045) | Type confusion in V8 | yes | [e0562d87ad9c](https://chromium.googlesource.com/v8/v8/+/e0562d87ad9c17042b581582c99237d798572e67) | [Chrome 152.0.7977.82/.83](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html) |
+| CVE-2026-85045 | [547819997](https://issues.chromium.org/issues/547819997) | Race condition in V8 | no | [7d5eb1df2a72](https://chromium.googlesource.com/v8/v8/+/7d5eb1df2a721c8fe3aa03b999464c4b86242080) | [Chrome 152.0.7977.82/.83](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html) |
+| CVE-2026-84326 | [547936520](https://issues.chromium.org/issues/547936520) | Uninitialized resource in V8 | no | [67c8f3a91447](https://chromium.googlesource.com/v8/v8/+/67c8f3a91447f9b8b15c16b6f6d0e1702f02e7a7) | [Chrome 152.0.7977.75/.76](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop.html) |
 | CVE-2026-78899 | [540430406](https://issues.chromium.org/issues/540430406) | Use after free in V8 | no | [bf900413c99d](https://chromium.googlesource.com/v8/v8/+/bf900413c99d492147e34552e4ba54fb83eb6f7d) | [Chrome 152.0.7977.64/65](https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_0256176589.html) |
 | CVE-2026-78938 | [545767601](https://issues.chromium.org/issues/545767601) | Type confusion in V8 | no | [20aa851cc02f](https://chromium.googlesource.com/v8/v8/+/20aa851cc02f5317e0a3de69540bd8bc36246c4a) | [Chrome 152.0.7977.64/65](https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_0256176589.html) |
 | CVE-2026-79236 | [546670199](https://issues.chromium.org/issues/546670199) | Type confusion in V8 | no | [50597b0bb48a](https://chromium.googlesource.com/v8/v8/+/50597b0bb48a0e0295709bb643479c503834c6fa) | [Chrome 152.0.7977.64/65](https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_0256176589.html) |
