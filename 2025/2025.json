@@ -679,7 +679,7 @@
     ],
     "itw": true,
     "commits": [
-      "https://chromium.googlesource.com/v8/v8/+/c17ee553a8b9c096351810ac43920a22c72c7df9"
+      "https://chromium.googlesource.com/v8/v8/+/22e9d9621de58ec6fe6581b56215059a48451b9f"
     ],
     "references": [
       "https://chromium-review.googlesource.com/c/v8/v8/+/6675922",
@@ -819,7 +819,7 @@
     ],
     "itw": false,
     "commits": [
-      "https://chromium.googlesource.com/v8/v8/+/812f91c5821259311a8d321b23654e7f74284a52"
+      "https://chromium.googlesource.com/v8/v8/+/8db16e651ff456e0eea6e576045623d2039a1d34"
     ],
     "references": [
       "https://chromium-review.googlesource.com/c/v8/v8/+/6304942"
