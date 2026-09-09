@@ -2,12 +2,12 @@
 
 A list of V8 CVEs from Chrome security releases.
 
-- Unique CVEs: 527
+- Unique CVEs: 536
 - Data source: [Chrome Releases](https://chromereleases.googleblog.com/)
 
 | Year | CVEs | ITW |
 | --- | ---: | ---: |
-| [2026](2026/) | 114 | 3 |
+| [2026](2026/) | 123 | 4 |
 | [2025](2025/) | 48 | 4 |
 | [2024](2024/) | 60 | 6 |
 | [2023](2023/) | 19 | 3 |
