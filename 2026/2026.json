@@ -1,5 +1,51 @@
 [
   {
+    "id": "CVE-2026-91728",
+    "issues": [
+      "556715288"
+    ],
+    "impacts": [
+      "Integer overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/121701eeb91d19c98cfc70ccd5338e10363f9a10"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8370082"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 153.0.8010.47/.48 - 2026-09-15",
+        "date": "2026-09-15",
+        "advisory": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0541751186.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-91745",
+    "issues": [
+      "558734727"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fa13edc3a676fc496be2c5a619c1772fca818c5b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8396657"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 153.0.8010.47/.48 - 2026-09-15",
+        "date": "2026-09-15",
+        "advisory": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0541751186.html"
+      }
+    ]
+  },
+  {
     "id": "CVE-2026-87587",
     "issues": [
       "550360762"
