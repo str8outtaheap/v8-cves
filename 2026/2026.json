@@ -1,5 +1,28 @@
 [
   {
+    "id": "CVE-2026-93377",
+    "issues": [
+      "560121552"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/eeb84632f49634571f28ebdf2df85895f6729490"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8410410"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 153.0.8010.52/.53 - 2026-09-17",
+        "date": "2026-09-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0194356994.html"
+      }
+    ]
+  },
+  {
     "id": "CVE-2026-91728",
     "issues": [
       "556715288"
