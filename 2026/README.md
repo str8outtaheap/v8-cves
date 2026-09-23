@@ -1,10 +1,15 @@
 # V8 CVEs 2026
 
-- CVEs: 126
+- CVEs: 131
 - [json](2026.json)
 
 | CVE | Issue | Impact | ITW | Fix | Chrome release |
 | --- | --- | --- | --- | --- | --- |
+| CVE-2026-95280 | [560406548](https://issues.chromium.org/issues/560406548) | Race condition in V8 | no | [695bea76a654](https://chromium.googlesource.com/v8/v8/+/695bea76a654b7f11bcfde1d898cf44716f83648) | [Chrome 154.0.8037.57/.58](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0856730748.html) |
+| CVE-2026-95304 | [560536731](https://issues.chromium.org/issues/560536731) | Out of bounds write in V8 | no | [057dcc408de1](https://chromium.googlesource.com/v8/v8/+/057dcc408de1583cf68c4034bbba89d0f78a88a4) | [Chrome 154.0.8037.57/.58](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0856730748.html) |
+| CVE-2026-95306 | [560536735](https://issues.chromium.org/issues/560536735) | Type confusion in V8 | no | [d8801666fdc8](https://chromium.googlesource.com/v8/v8/+/d8801666fdc81bc0d93e13dc187bde12da1ea8ba)<br>[65acd1f04328](https://chromium.googlesource.com/v8/v8/+/65acd1f04328e65e9eecd67f8119d123c35c0600) | [Chrome 154.0.8037.57/.58](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0856730748.html) |
+| CVE-2026-95380 | [534579660](https://issues.chromium.org/issues/534579660) | Type confusion in V8 | no | [3464747444ff](https://chromium.googlesource.com/v8/v8/+/3464747444ff8f85e429c82e5502d4592ca826ce) | [Chrome 154.0.8037.57/.58](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0856730748.html) |
+| CVE-2026-95342 | [547027738](https://issues.chromium.org/issues/547027738) | Missing authorization in V8 | no | [458ce68e6968](https://chromium.googlesource.com/v8/v8/+/458ce68e696859f4272307e879c06158940e6b82)<br>[a98cbbeb260c](https://chromium.googlesource.com/v8/v8/+/a98cbbeb260c1892c5f0664831c0667cc31416f8) | [Chrome 154.0.8037.57/.58](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0856730748.html) |
 | CVE-2026-93377 | [560121552](https://issues.chromium.org/issues/560121552) | Type confusion in V8 | no | [eeb84632f496](https://chromium.googlesource.com/v8/v8/+/eeb84632f49634571f28ebdf2df85895f6729490) | [Chrome 153.0.8010.52/.53](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0194356994.html) |
 | CVE-2026-91728 | [556715288](https://issues.chromium.org/issues/556715288) | Integer overflow in V8 | no | [121701eeb91d](https://chromium.googlesource.com/v8/v8/+/121701eeb91d19c98cfc70ccd5338e10363f9a10) | [Chrome 153.0.8010.47/.48](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0541751186.html) |
 | CVE-2026-91745 | [558734727](https://issues.chromium.org/issues/558734727) | Use after free in V8 | no | [fa13edc3a676](https://chromium.googlesource.com/v8/v8/+/fa13edc3a676fc496be2c5a619c1772fca818c5b) | [Chrome 153.0.8010.47/.48](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0541751186.html) |
