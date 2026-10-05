@@ -1,10 +1,11 @@
 # V8 CVEs 2026
 
-- CVEs: 137
+- CVEs: 138
 - [json](2026.json)
 
 | CVE | Issue | Impact | ITW | Fix | Chrome release |
 | --- | --- | --- | --- | --- | --- |
+| CVE-2026-103625 | [559893859](https://issues.chromium.org/issues/559893859) | Type confusion in V8 | no | [d87667efceca](https://chromium.googlesource.com/v8/v8/+/d87667efceca59930360c752dae519c96463eba4) | [Chrome 154.0.8037.97/.98](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop.html) |
 | CVE-2026-102299 | [556908674](https://issues.chromium.org/issues/556908674) | Type confusion in V8 | no | [1aaed11297ed](https://chromium.googlesource.com/v8/v8/+/1aaed11297edb3e3dea3c45e17f70b175de7d626) | [Chrome 154.0.8037.92/.93](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01807488085.html) |
 | CVE-2026-102323 | [559266114](https://issues.chromium.org/issues/559266114) | Type confusion in V8 | no | [a81b3eb9dec6](https://chromium.googlesource.com/v8/v8/+/a81b3eb9dec61f930956a02c183c8463cc89ea54) | [Chrome 154.0.8037.92/.93](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01807488085.html) |
 | CVE-2026-102326 | [560233248](https://issues.chromium.org/issues/560233248) | Type confusion in V8 | no | [dd0f8f20b696](https://chromium.googlesource.com/v8/v8/+/dd0f8f20b696604962000ea5f805fc3db78286e1) | [Chrome 154.0.8037.92/.93](https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01807488085.html) |
