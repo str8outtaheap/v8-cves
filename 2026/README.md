@@ -1,10 +1,13 @@
 # V8 CVEs 2026
 
-- CVEs: 146
+- CVEs: 149
 - [json](2026.json)
 
 | CVE | Issue | Impact | ITW | Fix | Chrome release |
 | --- | --- | --- | --- | --- | --- |
+| CVE-2026-110140 | [562038980](https://issues.chromium.org/issues/562038980) | Type confusion in V8 | no | [3d445698dfc9](https://chromium.googlesource.com/v8/v8/+/3d445698dfc94acd9027f59060404780554601b1) | [Chrome 155.0.8059.79/.80](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_01668083673.html) |
+| CVE-2026-110169 | [567088929](https://issues.chromium.org/issues/567088929) | Use after free in V8 | no | [6937df3c3da7](https://chromium.googlesource.com/v8/v8/+/6937df3c3da7b499d60d51f349c2e330b7f8ee15) | [Chrome 155.0.8059.79/.80](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_01668083673.html) |
+| CVE-2026-110168 | [568010382](https://issues.chromium.org/issues/568010382) | Use after free in V8 | no | [e321b042d411](https://chromium.googlesource.com/v8/v8/+/e321b042d4115179bb01270df2e75fc35ed65548) | [Chrome 155.0.8059.79/.80](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_01668083673.html) |
 | CVE-2026-106255 | [559780376](https://issues.chromium.org/issues/559780376) | Race condition in V8 | no | [ec136c5038d3](https://chromium.googlesource.com/v8/v8/+/ec136c5038d337396e362db4c9a4198ffda0d1ed) | [Chrome 155.0.8059.39/.40](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_086471744.html) |
 | CVE-2026-106346 | [566404364](https://issues.chromium.org/issues/566404364) | Improper state validation in DevTools | no | [7075c436f401](https://chromium.googlesource.com/v8/v8/+/7075c436f40149aabd8b9ab8ad187f260450a1f4) | [Chrome 155.0.8059.39/.40](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_086471744.html) |
 | CVE-2026-106240 | [567177599](https://issues.chromium.org/issues/567177599) | Type confusion in V8 | no | [41d0351e57bb](https://chromium.googlesource.com/v8/v8/+/41d0351e57bb9282c5b2239e28865ac590c87e9d) | [Chrome 155.0.8059.39/.40](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_086471744.html) |
