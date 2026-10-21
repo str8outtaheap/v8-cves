@@ -1,5 +1,312 @@
 [
   {
+    "id": "CVE-2026-113193",
+    "issues": [
+      "559932543"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/af7d1483a5daa0321a0a1254c1de7dbdf535f66b",
+      "https://chromium.googlesource.com/v8/v8/+/16ff4874adfe10ff427e4edd8b37d58106a1dac2",
+      "https://chromium.googlesource.com/v8/v8/+/37a6d6f0213ee411384c75aa564abb2fdf28b1ac",
+      "https://chromium.googlesource.com/v8/v8/+/9f911f0527030894ac69b47fcf564b95a7e53c5a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8424799",
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8419542",
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8420505",
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8425123"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113044",
+    "issues": [
+      "559266116"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c0543d0cbd1647e9f3a97067128c3144e77a2e17"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8423180"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113222",
+    "issues": [
+      "566091009"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/243b68bea40f3165551ee9fe0cc51826b81d7efa"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8547996"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113338",
+    "issues": [
+      "567175125"
+    ],
+    "impacts": [
+      "Use after free in Turbolev"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2945e2e2966a0d94ffbde4940ae2df65041dbc3a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8493491"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113192",
+    "issues": [
+      "568831099"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/17f229f3ea0662f8fce3a77b1c1fcb2350748d7d"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8523457"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113019",
+    "issues": [
+      "570003644"
+    ],
+    "impacts": [
+      "Use after free in Turbolev"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bd5b925e067872b0adab32e464647edf77f4d5d2"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8537446"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113160",
+    "issues": [
+      "570203091"
+    ],
+    "impacts": [
+      "Use after free in Turbolev"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/49b69c460a6fc5061f5ad1cf1661677295f78762"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8559780"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113014",
+    "issues": [
+      "502251640"
+    ],
+    "impacts": [
+      "Use after free in PerformanceAPIs"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1df1972ce6bcc521317d39e6417ff1ce9255e775"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8422987"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113030",
+    "issues": [
+      "561660149"
+    ],
+    "impacts": [
+      "Improper access control in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f2586e39cf4d2b288e7cd67194b3d5984e31133a",
+      "https://chromium.googlesource.com/v8/v8/+/cb1cc585931890b94af684a95c58c40af7af216e"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8418288",
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8424461"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113344",
+    "issues": [
+      "561926123"
+    ],
+    "impacts": [
+      "Use after free in Performance"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/549d3c92d6ee6a45176d26184b772e5233450706"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8423899"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113052",
+    "issues": [
+      "564326756"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/42a63bb146721f2175fa7e557594ce698b3d8cbe"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8430571"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113116",
+    "issues": [
+      "553259748"
+    ],
+    "impacts": [
+      "Use after free in DevTools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f2f0a6e1d170fbad85c7e5db15e2ef4aa8b7ad87"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8438296"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-113038",
+    "issues": [
+      "553931056"
+    ],
+    "impacts": [
+      "Memory corruption in DevTools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6ce4d0eb16dff57d8736cb0fc2824832fc12c2a0"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8412032"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.47/.48 - 2026-10-20",
+        "date": "2026-10-20",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+      }
+    ]
+  },
+  {
     "id": "CVE-2026-110919",
     "issues": [
       "568831769"
