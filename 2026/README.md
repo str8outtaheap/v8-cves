@@ -1,10 +1,16 @@
 # V8 CVEs 2026
 
-- CVEs: 165
+- CVEs: 171
 - [json](2026.json)
 
 | CVE | Issue | Impact | ITW | Fix | Chrome release |
 | --- | --- | --- | --- | --- | --- |
+| CVE-2026-118318 | [565133743](https://issues.chromium.org/issues/565133743) | Improper access control in V8 | no | [83ffaeb85f98](https://chromium.googlesource.com/chromium/deps/icu/+/83ffaeb85f98281e897f022d4ddc73ccd3cc1fb3) | [Chrome 156.0.8078.73/.74](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html) |
+| CVE-2026-118350 | [567129324](https://issues.chromium.org/issues/567129324) | Use after free in Turbolev | no | [c713c92ce08f](https://chromium.googlesource.com/v8/v8/+/c713c92ce08f558caec5b068172348a21e9a5d9d) | [Chrome 156.0.8078.73/.74](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html) |
+| CVE-2026-118305 | [568348290](https://issues.chromium.org/issues/568348290) | Memory corruption in Turbolev | no | [f2df0f7686ef](https://chromium.googlesource.com/v8/v8/+/f2df0f7686efaa881dbd0cd454ff04f78953272f) | [Chrome 156.0.8078.73/.74](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html) |
+| CVE-2026-118320 | [568894515](https://issues.chromium.org/issues/568894515) | Memory corruption in V8 | no | [5a4d7a78dbb4](https://chromium.googlesource.com/v8/v8/+/5a4d7a78dbb4d7451e3925d6b3d1b68d261fad16) | [Chrome 156.0.8078.73/.74](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html) |
+| CVE-2026-118359 | [573378812](https://issues.chromium.org/issues/573378812) | Memory corruption in V8 | no | [d4374eaec817](https://chromium.googlesource.com/v8/v8/+/d4374eaec817692d144b16ade997040e60ee6139) | [Chrome 156.0.8078.73/.74](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html) |
+| CVE-2026-118316 | [574223268](https://issues.chromium.org/issues/574223268) | Improper input validation in V8 | no | [11a31ce52ce0](https://chromium.googlesource.com/v8/v8/+/11a31ce52ce0b1b2b637929562ebbed8ea3dbb38) | [Chrome 156.0.8078.73/.74](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html) |
 | CVE-2026-113193 | [559932543](https://issues.chromium.org/issues/559932543) | Memory corruption in V8 | no | [af7d1483a5da](https://chromium.googlesource.com/v8/v8/+/af7d1483a5daa0321a0a1254c1de7dbdf535f66b)<br>[16ff4874adfe](https://chromium.googlesource.com/v8/v8/+/16ff4874adfe10ff427e4edd8b37d58106a1dac2)<br>[37a6d6f0213e](https://chromium.googlesource.com/v8/v8/+/37a6d6f0213ee411384c75aa564abb2fdf28b1ac)<br>[9f911f052703](https://chromium.googlesource.com/v8/v8/+/9f911f0527030894ac69b47fcf564b95a7e53c5a) | [Chrome 156.0.8078.47/.48](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html) |
 | CVE-2026-113044 | [559266116](https://issues.chromium.org/issues/559266116) | Use after free in V8 | no | [c0543d0cbd16](https://chromium.googlesource.com/v8/v8/+/c0543d0cbd1647e9f3a97067128c3144e77a2e17) | [Chrome 156.0.8078.47/.48](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html) |
 | CVE-2026-113222 | [566091009](https://issues.chromium.org/issues/566091009) | Use after free in V8 | no | [243b68bea40f](https://chromium.googlesource.com/v8/v8/+/243b68bea40f3165551ee9fe0cc51826b81d7efa) | [Chrome 156.0.8078.47/.48](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html) |
