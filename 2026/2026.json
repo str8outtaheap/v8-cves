@@ -1,5 +1,51 @@
 [
   {
+    "id": "CVE-2026-119262",
+    "issues": [
+      "574660146"
+    ],
+    "impacts": [
+      "Improper input validation in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ea2f03dfff2dbcf5a6ff4860790326d5d2b66356"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8631314"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.79/.80 - 2026-10-29",
+        "date": "2026-10-29",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02107719452.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-119263",
+    "issues": [
+      "575143870"
+    ],
+    "impacts": [
+      "Memory corruption in GarbageCollection"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e19035b3162d3d998884c7363e75a7acc89133a5"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8614239"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 156.0.8078.79/.80 - 2026-10-29",
+        "date": "2026-10-29",
+        "advisory": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02107719452.html"
+      }
+    ]
+  },
+  {
     "id": "CVE-2026-118318",
     "issues": [
       "565133743"
