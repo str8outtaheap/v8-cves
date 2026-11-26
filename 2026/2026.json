@@ -1,5 +1,701 @@
 [
   {
+    "id": "CVE-2026-131042",
+    "issues": [
+      "573263262"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/659b8bf10c4e6bfe3730beb6b42817d4fc58cc53"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8576040"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 158.0.8127.36/.37 - 2026-11-17",
+        "date": "2026-11-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-130957",
+    "issues": [
+      "577245772"
+    ],
+    "impacts": [
+      "Improper state validation in Performance"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/0095512e3a41bbe9d86a28f58b1d8ab6f46a8fad"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8714539"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 158.0.8127.36/.37 - 2026-11-17",
+        "date": "2026-11-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-130923",
+    "issues": [
+      "568908052"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/194256170eb5c620c1ff7458c65d7d8a387e81d0"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8579382"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 158.0.8127.36/.37 - 2026-11-17",
+        "date": "2026-11-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-131087",
+    "issues": [
+      "571348848"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/19048d3b7247d677ff11548e5bede4e48f262c0a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8545881"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 158.0.8127.36/.37 - 2026-11-17",
+        "date": "2026-11-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-131097",
+    "issues": [
+      "576225189"
+    ],
+    "impacts": [
+      "Missing authorization in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/33ab43a98e8c242878ac3564622ce6457f32c5f2"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8653980"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 158.0.8127.36/.37 - 2026-11-17",
+        "date": "2026-11-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-130988",
+    "issues": [
+      "577305505"
+    ],
+    "impacts": [
+      "Out of bounds read in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/65afc9f983f197c44ed7cce4fc81ec6750119a98"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8657185"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 158.0.8127.36/.37 - 2026-11-17",
+        "date": "2026-11-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-130916",
+    "issues": [
+      "553263303"
+    ],
+    "impacts": [
+      "Missing authorization in DevTools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/0b3bd2ba1022da2904cc1e965f941c88453f9e3a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8618757"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 158.0.8127.36/.37 - 2026-11-17",
+        "date": "2026-11-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-131005",
+    "issues": [
+      "568986689"
+    ],
+    "impacts": [
+      "Use after free in DevTools"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/336a6b346f8ddca2643d7c253e0cc289307c451c"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8556541"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 158.0.8127.36/.37 - 2026-11-17",
+        "date": "2026-11-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-130950",
+    "issues": [
+      "572312093"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fb3bcc3182eb61bdb92632fc6ca2b9f14e025d68"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8558487"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 158.0.8127.36/.37 - 2026-11-17",
+        "date": "2026-11-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-131098",
+    "issues": [
+      "574412712"
+    ],
+    "impacts": [
+      "Out of bounds read in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/0ac2b27dda5bc2189836bf93d7d2aed809d0550b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8590862"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 158.0.8127.36/.37 - 2026-11-17",
+        "date": "2026-11-17",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126864",
+    "issues": [
+      "567827593"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/deps/icu/+/f338a36b97f0324d780ff63e6be5198391907a5a"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/chromium/deps/icu/+/8668341"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126889",
+    "issues": [
+      "560620348"
+    ],
+    "impacts": [
+      "Off-by-one error in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4088835baec911d7beae337203080558958aa93b"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8742800"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126847",
+    "issues": [
+      "572988453"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9ac4be9ae1649358b15481c30c3070a33c748373"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8588555"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126916",
+    "issues": [
+      "574025697"
+    ],
+    "impacts": [
+      "Integer overflow in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/chromium/deps/icu/+/a0ea93436c528ca316a6e698e483e258839101a5"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/chromium/deps/icu/+/8668040"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126910",
+    "issues": [
+      "574059463"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fb733af10723e6be2d3edcefefc5a123662a64bb",
+      "https://chromium.googlesource.com/v8/v8/+/f68e0561f347ae11884dee4e726935e90caac0d9"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8668740",
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8741069"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126875",
+    "issues": [
+      "574222006"
+    ],
+    "impacts": [
+      "Missing authorization in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4e8f0db9651e2dfd8bfc0c0b62bd6e1311e0587d"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8691329"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126896",
+    "issues": [
+      "575524702"
+    ],
+    "impacts": [
+      "Missing authorization in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b884bf81a47c8e8369ca2b41ef86c8465c9d6463"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8704635"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126891",
+    "issues": [
+      "575939904"
+    ],
+    "impacts": [
+      "Use after free in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/05529723c3698175a2a687439aa53e28bd328d0c"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8709840"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126874",
+    "issues": [
+      "576439987"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/df78e0051bb566bcfc9d9dfe931fd86e276a5f32"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8691330"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126917",
+    "issues": [
+      "577242082"
+    ],
+    "impacts": [
+      "Memory corruption in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9c691c3f3f9fb6bba7c57973fdfa8f51c65cc44d"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8724847"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126905",
+    "issues": [
+      "577305517"
+    ],
+    "impacts": [
+      "Incomplete cleanup in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3616d4374ef53e3f07574e47abd325df6e160eb3"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8689947"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126880",
+    "issues": [
+      "577366752"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f183ac3b2be3481c9f313eb4fa3c32eea78add5c"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8747642"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126888",
+    "issues": [
+      "577461556"
+    ],
+    "impacts": [
+      "Buffer overflow in Turbolev"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/11e89ede1d2808418791b89cd5394d4999b74aa3"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8715069"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126843",
+    "issues": [
+      "578322433"
+    ],
+    "impacts": [
+      "Type confusion in Turbolev"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/963da944fa40da1f5a76618a3955f1c137381173"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8691333"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126897",
+    "issues": [
+      "578656106"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e6031048e7e5119f9fa89d569b221c13d16452a0"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8713383"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126893",
+    "issues": [
+      "579278668"
+    ],
+    "impacts": [
+      "Out of bounds write in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1a89a496a2987998f56ec951a7b57413b02782e5"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8722294"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126908",
+    "issues": [
+      "579313083"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8e63f7dd778c9a440ebbedb276cbf57c8d21c3fa",
+      "https://chromium.googlesource.com/v8/v8/+/fd940821e2081280c5771e94c42ffb1a31ff782d"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8689231",
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8691189"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126849",
+    "issues": [
+      "579313193"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/658a650fa6be71b3605600537c8248d1b8a3e0aa"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8692330"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-126868",
+    "issues": [
+      "580867734"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/734b64ce056bb3e1aecead1bf6d30aeea01cb59c",
+      "https://chromium.googlesource.com/v8/v8/+/53659df718e8b2b96d8905eef8f1af594ef60bf0"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8727407",
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8741062"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.78/.79 - 2026-11-11",
+        "date": "2026-11-11",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html"
+      }
+    ]
+  },
+  {
+    "id": "CVE-2026-125344",
+    "issues": [
+      "568893995"
+    ],
+    "impacts": [
+      "Type confusion in V8"
+    ],
+    "itw": false,
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e3e0f1c146fc15721a3e8f539ab412cd70fb1082"
+    ],
+    "references": [
+      "https://chromium-review.googlesource.com/c/v8/v8/+/8538474"
+    ],
+    "releases": [
+      {
+        "name": "Chrome 157.0.8103.50/.51 - 2026-11-09",
+        "date": "2026-11-09",
+        "advisory": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_018223192.html"
+      }
+    ]
+  },
+  {
     "id": "CVE-2026-121082",
     "issues": [
       "567222737"
